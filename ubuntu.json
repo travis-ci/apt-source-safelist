@@ -1,0 +1,12 @@
+[
+  {
+    "alias": "deadsnakes-precise",
+    "sourceline": "ppa:fkrull/deadsnakes-precise",
+    "key_url": null
+  },
+  {
+    "alias": "packagecloud-precise",
+    "sourceline": "deb https://packagecloud.io/chef/stable/ubuntu/ precise main",
+    "key_url": "https://packagecloud.io/gpg.key"
+  }
+]
