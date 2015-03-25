@@ -5,7 +5,7 @@
     "key_url": null
   },
   {
-    "alias": "packagecloud-precise",
+    "alias": "chef-stable-precise",
     "sourceline": "deb https://packagecloud.io/chef/stable/ubuntu/ precise main",
     "key_url": "https://packagecloud.io/gpg.key"
   }
