@@ -1,7 +1,7 @@
 [
   {
-    "alias": "deadsnakes-precise",
-    "sourceline": "ppa:fkrull/deadsnakes-precise",
+    "alias": "deadsnakes",
+    "sourceline": "ppa:fkrull/deadsnakes",
     "key_url": null
   },
   {
