@@ -15,8 +15,18 @@
     "key_url": null
   },
   {
+    "alias": "lucid",
+    "sourceline": "deb http://archive.ubuntu.com/ubuntu/ lucid main",
+    "key_url": null
+  },
+  {
     "alias": "pgavin-ghdl",
     "sourceline": "ppa:pgavin/ghdl",
+    "key_url": null
+  },
+  {
+    "alias": "pypy",
+    "sourceline": "ppa:pypy/ppa",
     "key_url": null
   },
   {
