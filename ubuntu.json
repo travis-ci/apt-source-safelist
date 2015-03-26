@@ -1,12 +1,27 @@
 [
   {
-    "alias": "deadsnakes",
-    "sourceline": "ppa:fkrull/deadsnakes",
+    "alias": "cassou-emacs",
+    "sourceline": "ppa:cassou/emacs",
     "key_url": null
   },
   {
     "alias": "chef-stable-precise",
     "sourceline": "deb https://packagecloud.io/chef/stable/ubuntu/ precise main",
     "key_url": "https://packagecloud.io/gpg.key"
+  },
+  {
+    "alias": "deadsnakes",
+    "sourceline": "ppa:fkrull/deadsnakes",
+    "key_url": null
+  },
+  {
+    "alias": "pgavin-ghdl",
+    "sourceline": "ppa:pgavin/ghdl",
+    "key_url": null
+  },
+  {
+    "alias": "ubuntu-toolchain-r-test",
+    "sourceline": "ppa:ubuntu-toolchain-r/test",
+    "key_url": null
   }
 ]
