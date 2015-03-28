@@ -16,18 +16,26 @@ def main(argv)
 
   abort USAGE if [whitelist_json, source_alias, sourceline].any?(&:nil?)
 
-  whitelist = add_source(whitelist_json, source_alias, sourceline, key_url)
+  whitelist = add_source(
+    whitelist_json.dup.to_s,
+    source_alias.dup.to_s,
+    sourceline.dup.to_s,
+    key_url.dup.to_s
+  )
   puts JSON.pretty_generate(whitelist)
 
   0
 end
 
 def add_source(whitelist_json, source_alias, sourceline, key_url)
+  key_url.strip!
+  source_alias.strip!
+
   whitelist = JSON.parse(File.read(whitelist_json))
   whitelist << {
     'alias' => source_alias,
-    'sourceline' => sourceline,
-    'key_url' => (key_url.nil? || key_url.empty?) ? nil : key_url
+    'sourceline' => sourceline.split.join(' '),
+    'key_url' => key_url.empty? ? nil : key_url
   }
 
   whitelist.uniq! { |e| e['alias'] }
