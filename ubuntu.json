@@ -10,6 +10,11 @@
     "key_url": "https://packagecloud.io/gpg.key"
   },
   {
+    "alias": "couchbase-precise",
+    "sourceline": "deb http://packages.couchbase.com/ubuntu precise precise/main",
+    "key_url": "http://packages.couchbase.com/ubuntu/couchbase.key"
+  },
+  {
     "alias": "deadsnakes",
     "sourceline": "ppa:fkrull/deadsnakes",
     "key_url": null
