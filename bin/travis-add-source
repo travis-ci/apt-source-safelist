@@ -1,7 +1,5 @@
 #!/usr/bin/env ruby
 
-require 'json'
-
 PROG = File.basename($PROGRAM_NAME)
 USAGE = <<-EOF
 Usage: #{PROG} <whitelist> <alias> <sourceline> [key-url]
@@ -15,6 +13,8 @@ def main(argv)
   end
 
   abort USAGE if [whitelist_json, source_alias, sourceline].any?(&:nil?)
+
+  require 'json'
 
   whitelist = add_source(
     whitelist_json.dup.to_s,
