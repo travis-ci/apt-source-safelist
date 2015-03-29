@@ -60,6 +60,11 @@
     "key_url": null
   },
   {
+    "alias": "rabbitmq-testing",
+    "sourceline": "deb http://www.rabbitmq.com/debian/ testing main",
+    "key_url": "https://www.rabbitmq.com/rabbitmq-signing-key-public.asc"
+  },
+  {
     "alias": "ubuntu-toolchain-r-test",
     "sourceline": "ppa:ubuntu-toolchain-r/test",
     "key_url": null
