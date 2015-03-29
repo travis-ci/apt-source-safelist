@@ -20,6 +20,11 @@
     "key_url": null
   },
   {
+    "alias": "extras-precise",
+    "sourceline": "deb http://extras.ubuntu.com/ubuntu precise main",
+    "key_url": null
+  },
+  {
     "alias": "llvm-toolchain-precise",
     "sourceline": "deb http://llvm.org/apt/precise/ llvm-toolchain-precise main",
     "key_url": "http://llvm.org/apt/llvm-snapshot.gpg.key"
@@ -37,6 +42,11 @@
   {
     "alias": "lucid",
     "sourceline": "deb http://archive.ubuntu.com/ubuntu/ lucid main",
+    "key_url": null
+  },
+  {
+    "alias": "partner-precise",
+    "sourceline": "deb http://archive.canonical.com/ubuntu precise partner",
     "key_url": null
   },
   {
