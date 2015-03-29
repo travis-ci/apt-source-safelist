@@ -2,11 +2,11 @@
 
 PROG = File.basename($PROGRAM_NAME)
 USAGE = <<-EOF
-Usage: #{PROG} <whitelist> <alias> <sourceline> [key-url]
+Usage: #{PROG} <whitelist> <alias> <sourceline> [key-url] [-i|--inplace]
 EOF
 
 def main(argv)
-  whitelist_json, source_alias, sourceline, key_url = argv
+  whitelist_json, source_alias, sourceline, key_url, inplace = argv
   if whitelist_json =~ /-h|--help|help/
     puts USAGE
     return 0
@@ -22,7 +22,9 @@ def main(argv)
     sourceline.dup.to_s,
     key_url.dup.to_s
   )
-  puts JSON.pretty_generate(whitelist)
+  out = $stdout
+  out = File.open(whitelist_json.dup.to_s, 'w') if inplace.to_s =~ /-i|--inplace/
+  out.puts JSON.pretty_generate(whitelist)
 
   0
 end
