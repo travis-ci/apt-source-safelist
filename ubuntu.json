@@ -45,6 +45,11 @@
     "key_url": null
   },
   {
+    "alias": "mopidy-stable",
+    "sourceline": "deb http://apt.mopidy.com/ stable main contrib non-free",
+    "key_url": "https://apt.mopidy.com/mopidy.gpg"
+  },
+  {
     "alias": "partner-precise",
     "sourceline": "deb http://archive.canonical.com/ubuntu precise partner",
     "key_url": null
