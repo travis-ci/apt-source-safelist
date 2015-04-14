@@ -1,5 +1,10 @@
 [
   {
+    "alias": "boost-latest",
+    "sourceline": "ppa:boost-latest/ppa",
+    "key_url": null
+  },
+  {
     "alias": "cassou-emacs",
     "sourceline": "ppa:cassou/emacs",
     "key_url": null
