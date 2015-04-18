@@ -30,6 +30,11 @@
     "key_url": "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x16126D3A3E5C1192"
   },
   {
+    "alias": "george-edison55-precise-backports",
+    "sourceline": "ppa:george-edison55/precise-backports",
+    "key_url": null
+  },
+  {
     "alias": "hvr-ghc",
     "sourceline": "ppa:hvr/ghc",
     "key_url": null
