@@ -80,6 +80,11 @@
     "key_url": null
   },
   {
+    "alias": "pythonxy-devel",
+    "sourceline": "ppa:pythonxy/pythonxy-devel",
+    "key_url": null
+  },
+  {
     "alias": "rabbitmq-precise",
     "sourceline": "deb https://packagecloud.io/rabbitmq/rabbitmq-server/ubuntu/ precise main",
     "key_url": "https://packagecloud.io/gpg.key"
