@@ -70,6 +70,11 @@
     "key_url": null
   },
   {
+    "alias": "mongodb-upstart",
+    "sourceline": "deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen",
+    "key_url": "http://keyserver.ubuntu.com/pks/lookup?op=get&fingerprint=on&search=0x9ECBEC467F0CEB10"
+  },
+  {
     "alias": "mopidy-stable",
     "sourceline": "deb http://apt.mopidy.com/ stable main contrib non-free",
     "key_url": "https://apt.mopidy.com/mopidy.gpg"
