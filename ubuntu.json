@@ -1,5 +1,10 @@
 [
   {
+    "alias": "avsm",
+    "sourceline": "ppa:avsm/ppa",
+    "key_url": null
+  },
+  {
     "alias": "boost-latest",
     "sourceline": "ppa:boost-latest/ppa",
     "key_url": null
