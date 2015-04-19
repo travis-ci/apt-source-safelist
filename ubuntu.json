@@ -45,6 +45,11 @@
     "key_url": null
   },
   {
+    "alias": "kubuntu-backports",
+    "sourceline": "ppa:kubuntu-ppa/backports",
+    "key_url": null
+  },
+  {
     "alias": "llvm-toolchain-precise",
     "sourceline": "deb http://llvm.org/apt/precise/ llvm-toolchain-precise main",
     "key_url": "http://llvm.org/apt/llvm-snapshot.gpg.key"
