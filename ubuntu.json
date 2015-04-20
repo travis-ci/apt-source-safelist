@@ -90,6 +90,11 @@
     "key_url": null
   },
   {
+    "alias": "pov-wkhtmltopdf",
+    "sourceline": "ppa:pov/wkhtmltopdf",
+    "key_url": null
+  },
+  {
     "alias": "pypy",
     "sourceline": "ppa:pypy/ppa",
     "key_url": null
