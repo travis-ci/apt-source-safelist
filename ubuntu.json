@@ -80,6 +80,11 @@
     "key_url": null
   },
   {
+    "alias": "mariadb-10.0",
+    "sourceline": "deb https://downloads.mariadb.com/files/MariaDB/repo/10.0/ubuntu precise main",
+    "key_url": "https://downloads.mariadb.com/files/MariaDB/repo/10.0/ubuntu/dists/precise/Release.gpg"
+  },
+  {
     "alias": "mongodb-upstart",
     "sourceline": "deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen",
     "key_url": "http://keyserver.ubuntu.com/pks/lookup?op=get&fingerprint=on&search=0x9ECBEC467F0CEB10"
