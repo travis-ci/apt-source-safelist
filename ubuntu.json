@@ -81,7 +81,7 @@
   },
   {
     "alias": "mariadb-10.0",
-    "sourceline": "deb https://downloads.mariadb.com/files/MariaDB/repo/10.0/ubuntu precise main",
+    "sourceline": "deb http://ftp.osuosl.org/pub/mariadb/repo/10.0/ubuntu precise main",
     "key_url": "http://keyserver.ubuntu.com/pks/lookup?op=get&fingerprint=on&search=0x1BB943DB"
   },
   {
