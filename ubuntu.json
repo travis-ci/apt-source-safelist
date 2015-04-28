@@ -15,6 +15,11 @@
     "key_url": null
   },
   {
+    "alias": "chef-current-precise",
+    "sourceline": "deb https://packagecloud.io/chef/current/ubuntu/ precise main",
+    "key_url": "https://packagecloud.io/gpg.key"
+  },
+  {
     "alias": "chef-stable-precise",
     "sourceline": "deb https://packagecloud.io/chef/stable/ubuntu/ precise main",
     "key_url": "https://packagecloud.io/gpg.key"
