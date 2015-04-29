@@ -80,6 +80,11 @@
     "key_url": "http://llvm.org/apt/llvm-snapshot.gpg.key"
   },
   {
+    "alias": "llvm-toolchain-precise-3.7",
+    "sourceline": "deb http://llvm.org/apt/precise/ llvm-toolchain-precise-3.7 main",
+    "key_url": "http://llvm.org/apt/llvm-snapshot.gpg.key"
+  },
+  {
     "alias": "lucid",
     "sourceline": "deb http://archive.ubuntu.com/ubuntu/ lucid main",
     "key_url": null
