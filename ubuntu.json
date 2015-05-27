@@ -131,12 +131,12 @@
   },
   {
     "alias": "r-packages-precise",
-    "sourceline": "deb http://cran.rstudio.com/bin/linux/ubuntu precise",
+    "sourceline": "deb http://cran.rstudio.com/bin/linux/ubuntu precise/",
     "key_url": "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x51716619E084DAB9"
   },
   {
     "alias": "r-packages-trusty",
-    "sourceline": "deb http://cran.rstudio.com/bin/linux/ubuntu trusty",
+    "sourceline": "deb http://cran.rstudio.com/bin/linux/ubuntu trusty/",
     "key_url": "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x51716619E084DAB9"
   },
   {
