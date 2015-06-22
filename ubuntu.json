@@ -60,6 +60,11 @@
     "key_url": null
   },
   {
+    "alias": "kalakris-cmake",
+    "sourceline": "ppa:kalakris/cmake",
+    "key_url": null
+  },
+  {
     "alias": "kubuntu-backports",
     "sourceline": "ppa:kubuntu-ppa/backports",
     "key_url": null
