@@ -50,6 +50,11 @@
     "key_url": null
   },
   {
+    "alias": "gearman-developers",
+    "sourceline": "ppa:gearman-developers/ppa",
+    "key_url": null
+  },
+  {
     "alias": "george-edison55-precise-backports",
     "sourceline": "ppa:george-edison55/precise-backports",
     "key_url": null
