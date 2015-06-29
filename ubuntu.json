@@ -55,6 +55,11 @@
     "key_url": null
   },
   {
+    "alias": "george-edison55-precise-cmake",
+    "sourceline": "ppa:george-edison55/cmake-3.x",
+    "key_url": null
+  },
+  {
     "alias": "george-edison55-precise-backports",
     "sourceline": "ppa:george-edison55/precise-backports",
     "key_url": null
