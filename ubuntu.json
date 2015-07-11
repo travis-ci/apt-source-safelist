@@ -60,6 +60,11 @@
     "key_url": null
   },
   {
+    "alias": "gijzelaar-opencv2.4",
+    "sourceline": "ppa:gijzelaar/opencv2.4",
+    "key_url": null
+  },
+  {
     "alias": "hvr-ghc",
     "sourceline": "ppa:hvr/ghc",
     "key_url": null
