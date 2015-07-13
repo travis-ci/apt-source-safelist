@@ -135,6 +135,11 @@
     "key_url": null
   },
   {
+    "alias": "python-pil",
+    "sourceline": "ppa:chris-lea/python-pil",
+    "key_url": null
+  },
+  {
     "alias": "pythonxy-devel",
     "sourceline": "ppa:pythonxy/pythonxy-devel",
     "key_url": null
