@@ -130,6 +130,11 @@
     "key_url": null
   },
   {
+    "alias": "precise-pgdg-9.5",
+    "sourceline": "deb http://apt.postgresql.org/pub/repos/apt/ precise-pgdg 9.5",
+    "key_url": "https://www.postgresql.org/media/keys/ACCC4CF8.asc"
+  },
+  {
     "alias": "pypy",
     "sourceline": "ppa:pypy/ppa",
     "key_url": null
