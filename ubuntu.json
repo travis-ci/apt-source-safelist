@@ -115,6 +115,11 @@
     "key_url": "https://apt.mopidy.com/mopidy.gpg"
   },
   {
+    "alias": "oracle-java",
+    "sourceline": "ppa:webupd8team/java",
+    "key_url": null
+  },
+  {
     "alias": "partner-precise",
     "sourceline": "deb http://archive.canonical.com/ubuntu precise partner",
     "key_url": null
