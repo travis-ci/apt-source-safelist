@@ -50,6 +50,21 @@
     "key_url": "http://download.fpcomplete.com/ubuntu/fpco.key"
   },
   {
+    "alias": "fpcomplete-stable-trusty",
+    "sourceline": "deb http://download.fpcomplete.com/ubuntu/trusty stable main",
+    "key_url": "http://download.fpcomplete.com/ubuntu/fpco.key"
+  },
+  {
+    "alias": "fpcomplete-stable-utopic",
+    "sourceline": "deb http://download.fpcomplete.com/ubuntu/utopic stable main",
+    "key_url": "http://download.fpcomplete.com/ubuntu/fpco.key"
+  },
+  {
+    "alias": "fpcomplete-stable-vivid",
+    "sourceline": "deb http://download.fpcomplete.com/ubuntu/vivid stable main",
+    "key_url": "http://download.fpcomplete.com/ubuntu/fpco.key"
+  },
+  {
     "alias": "gammu",
     "sourceline": "ppa:nijel/ppa",
     "key_url": null
