@@ -173,5 +173,10 @@
     "alias": "ubuntu-toolchain-r-test",
     "sourceline": "ppa:ubuntu-toolchain-r/test",
     "key_url": null
+  },
+  {
+    "alias": "obs-unstable",
+    "sourceline": "deb http://download.opensuse.org/repositories/OBS:/Server:/Unstable/xUbuntu_12.04 obs-unstable main",
+    "key_url": null
   }
 ]
