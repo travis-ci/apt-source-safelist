@@ -1,5 +1,9 @@
 language: ruby
+
+sudo: 9000
+
 install: echo 'no installation necessary'
+
 script:
 - bin/travis-add-source -h
 - ./add_all.rb
