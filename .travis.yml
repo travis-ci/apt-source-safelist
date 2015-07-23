@@ -2,4 +2,5 @@ language: ruby
 install: echo 'no installation necessary'
 script:
 - bin/travis-add-source -h
+- ./add_all.rb
 - diff -u ubuntu.json <(jq 'sort_by(.alias)' < ubuntu.json)
