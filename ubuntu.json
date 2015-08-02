@@ -190,6 +190,16 @@
     "key_url": "https://www.rabbitmq.com/rabbitmq-signing-key-public.asc"
   },
   {
+    "alias": "rethinkdb-precise",
+    "sourceline": "deb http://download.rethinkdb.com/apt precise main",
+    "key_url": "http://download.rethinkdb.com/apt/pubkey.gpg"
+  },
+  {
+    "alias": "rethinkdb-trusty",
+    "sourceline": "deb http://download.rethinkdb.com/apt trusty main",
+    "key_url": "http://download.rethinkdb.com/apt/pubkey.gpg"
+  },
+  {
     "alias": "tmate",
     "sourceline": "ppa:nviennot/tmate",
     "key_url": null
