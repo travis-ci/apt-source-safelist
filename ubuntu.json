@@ -165,6 +165,11 @@
     "key_url": "https://www.rabbitmq.com/rabbitmq-signing-key-public.asc"
   },
   {
+    "alias": "ubuntu-elisp",
+    "sourceline": "ppa:ubuntu-elisp/ppa",
+    "key_url": "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x0D7BAE435ADBC6C3E4918A74062D648FD62FCE72"
+  },
+  {
     "alias": "ubuntu-sdk-team",
     "sourceline": "ppa:ubuntu-sdk-team/ppa",
     "key_url": null
