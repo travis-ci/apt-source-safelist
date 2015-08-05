@@ -60,6 +60,11 @@
     "key_url": null
   },
   {
+    "alias": "heroku",
+    "sourceline": "deb http://toolbelt.heroku.com/ubuntu ./",
+    "key_url": "https://toolbelt.heroku.com/apt/release.key"
+  },
+  {
     "alias": "hvr-ghc",
     "sourceline": "ppa:hvr/ghc",
     "key_url": null
