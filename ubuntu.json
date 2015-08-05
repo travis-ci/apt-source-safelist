@@ -30,6 +30,11 @@
     "key_url": "http://packages.couchbase.com/ubuntu/couchbase.key"
   },
   {
+    "alias": "dartsim",
+    "sourceline": "ppa:dartsim/ppa",
+    "key_url": null
+  },
+  {
     "alias": "deadsnakes",
     "sourceline": "ppa:fkrull/deadsnakes",
     "key_url": null
