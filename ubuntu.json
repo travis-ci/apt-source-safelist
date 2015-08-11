@@ -135,8 +135,8 @@
     "key_url": null
   },
   {
-    "alias": "precise-pgdg-9.5",
-    "sourceline": "deb http://apt.postgresql.org/pub/repos/apt/ precise-pgdg 9.5",
+    "alias": "precise-pgdg-main",
+    "sourceline": "deb http://apt.postgresql.org/pub/repos/apt/ precise-pgdg main",
     "key_url": "https://www.postgresql.org/media/keys/ACCC4CF8.asc"
   },
   {
