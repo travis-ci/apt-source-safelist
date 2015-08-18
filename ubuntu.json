@@ -178,5 +178,10 @@
     "alias": "ubuntu-toolchain-r-test",
     "sourceline": "ppa:ubuntu-toolchain-r/test",
     "key_url": null
+  },
+  {
+    "alias": "ubuntugis-unstable",
+    "sourceline": "ppa:ubuntugis/ubuntugis-unstable",
+    "key_url": null
   }
 ]
