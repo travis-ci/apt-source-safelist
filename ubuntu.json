@@ -170,6 +170,11 @@
     "key_url": "https://www.rabbitmq.com/rabbitmq-signing-key-public.asc"
   },
   {
+    "alias": "tmate",
+    "sourceline": "ppa:nviennot/tmate",
+    "key_url": null
+  },
+  {
     "alias": "ubuntu-sdk-team",
     "sourceline": "ppa:ubuntu-sdk-team/ppa",
     "key_url": null
