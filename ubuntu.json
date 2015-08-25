@@ -104,7 +104,7 @@
     "sourceline": "deb http://ftp.osuosl.org/pub/mariadb/repo/10.0/ubuntu precise main",
     "key_url": "http://keyserver.ubuntu.com/pks/lookup?op=get&fingerprint=on&search=0x1BB943DB"
   },
-    {
+  {
     "alias": "mongodb-precise",
     "sourceline": "deb http://repo.mongodb.org/apt/ubuntu precise/mongodb-org/3.0 multiverse",
     "key_url": "http://keyserver.ubuntu.com/pks/lookup?op=get&fingerprint=on&search=0x9ECBEC467F0CEB10"
