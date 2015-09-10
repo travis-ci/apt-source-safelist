@@ -198,5 +198,10 @@
     "alias": "ubuntu-toolchain-r-test",
     "sourceline": "ppa:ubuntu-toolchain-r/test",
     "key_url": null
+  },
+  {
+    "alias": "s3tools",
+    "sourceline": "deb http://s3tools.org/repo/deb-all stable/",
+    "key_url": "http://s3tools.org/repo/deb-all/stable/s3tools.key"
   }
 ]
