@@ -25,6 +25,11 @@
     "key_url": "https://packagecloud.io/gpg.key"
   },
   {
+    "alias": "chris-lea-zeromq",
+    "sourceline": "ppa:chris-lea/zeromq",
+    "key_url": null
+  },
+  {
     "alias": "couchbase-precise",
     "sourceline": "deb http://packages.couchbase.com/ubuntu precise precise/main",
     "key_url": "http://packages.couchbase.com/ubuntu/couchbase.key"
