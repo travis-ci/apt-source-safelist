@@ -70,6 +70,11 @@
     "key_url": null
   },
   {
+    "alias": "google-chrome",
+    "sourceline": "deb http://dl.google.com/linux/chrome/deb/ stable main",
+    "key_url": "https://dl-ssl.google.com/linux/linux_signing_key.pub"
+  },
+  {
     "alias": "heroku",
     "sourceline": "deb http://toolbelt.heroku.com/ubuntu ./",
     "key_url": "https://toolbelt.heroku.com/apt/release.key"
