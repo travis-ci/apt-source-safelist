@@ -140,6 +140,11 @@
     "key_url": "https://apt.mopidy.com/mopidy.gpg"
   },
   {
+    "alias": "nodesource-4.x-precise",
+    "sourceline": "deb https://deb.nodesource.com/node_4.x precise main",
+    "key_url": "https://deb.nodesource.com/gpgkey/nodesource.gpg.key"
+  },
+  {
     "alias": "partner-precise",
     "sourceline": "deb http://archive.canonical.com/ubuntu precise partner",
     "key_url": null
