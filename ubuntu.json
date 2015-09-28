@@ -150,6 +150,11 @@
     "key_url": null
   },
   {
+    "alias": "pcl-latest",
+    "sourceline": "ppa:v-launchpad-jochen-sprickerhof-de/pcl",
+    "key_url": null
+  },
+  {
     "alias": "pgavin-ghdl",
     "sourceline": "ppa:pgavin/ghdl",
     "key_url": null
