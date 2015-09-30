@@ -195,6 +195,11 @@
     "key_url": null
   },
   {
+    "alias": "ubuntu-elisp",
+    "sourceline": "ppa:ubuntu-elisp/ppa",
+    "key_url": null
+  },
+  {
     "alias": "ubuntu-sdk-team",
     "sourceline": "ppa:ubuntu-sdk-team/ppa",
     "key_url": null
