@@ -1,12 +1,12 @@
 [
   {
-    "alias": "avsm",
-    "sourceline": "ppa:avsm/ppa",
+    "alias": "augeas",
+    "sourceline": "ppa:raphink/augeas",
     "key_url": null
   },
   {
-    "alias": "augeas",
-    "sourceline": "ppa:raphink/augeas",
+    "alias": "avsm",
+    "sourceline": "ppa:avsm/ppa",
     "key_url": null
   },
   {
