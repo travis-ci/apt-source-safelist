@@ -175,13 +175,28 @@
     "key_url": "http://keyserver.ubuntu.com/pks/lookup?op=get&fingerprint=on&search=0x9ECBEC467F0CEB10"
   },
   {
-    "alias": "mono-precise",
+    "alias": "mono",
     "sourceline": "deb http://download.mono-project.com/repo/debian wheezy main",
     "key_url": "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0xA6A19B38D3D831EF"
   },
   {
-    "alias": "mono-trusty",
-    "sourceline": "deb http://download.mono-project.com/repo/debian wheezy main",
+    "alias": "mono-alpha",
+    "sourceline": "deb http://download.mono-project.com/repo/debian alpha main",
+    "key_url": "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0xA6A19B38D3D831EF"
+  },
+  {
+    "alias": "mono-beta",
+    "sourceline": "deb http://download.mono-project.com/repo/debian beta main",
+    "key_url": "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0xA6A19B38D3D831EF"
+  },
+  {
+    "alias": "mono-libtiff-compat",
+    "sourceline": "deb http://download.mono-project.com/repo/debian wheezy-libtiff-compat main",
+    "key_url": "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0xA6A19B38D3D831EF"
+  },
+  {
+    "alias": "mono-nightly",
+    "sourceline": "deb http://download.mono-project.com/repo/debian nightly main",
     "key_url": "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0xA6A19B38D3D831EF"
   },
   {
