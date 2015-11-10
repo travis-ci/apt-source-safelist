@@ -175,6 +175,16 @@
     "key_url": "http://keyserver.ubuntu.com/pks/lookup?op=get&fingerprint=on&search=0x9ECBEC467F0CEB10"
   },
   {
+    "alias": "mono-precise",
+    "sourceline": "deb http://download.mono-project.com/repo/debian wheezy main",
+    "key_url": "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0xA6A19B38D3D831EF"
+  },
+  {
+    "alias": "mono-trusty",
+    "sourceline": "deb http://download.mono-project.com/repo/debian wheezy main",
+    "key_url": "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0xA6A19B38D3D831EF"
+  },
+  {
     "alias": "mopidy-stable",
     "sourceline": "deb http://apt.mopidy.com/ stable main contrib non-free",
     "key_url": "https://apt.mopidy.com/mopidy.gpg"
