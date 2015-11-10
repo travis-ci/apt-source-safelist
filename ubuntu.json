@@ -5,6 +5,41 @@
     "key_url": null
   },
   {
+    "alias": "augeas-0.10.0",
+    "sourceline": "ppa:raphink/augeas-0.10.0",
+    "key_url": null
+  },
+  {
+    "alias": "augeas-1.0.0",
+    "sourceline": "ppa:raphink/augeas-1.0.0",
+    "key_url": null
+  },
+  {
+    "alias": "augeas-1.1.0",
+    "sourceline": "ppa:raphink/augeas-1.1.0",
+    "key_url": null
+  },
+  {
+    "alias": "augeas-1.2.0",
+    "sourceline": "ppa:raphink/augeas-1.2.0",
+    "key_url": null
+  },
+  {
+    "alias": "augeas-1.3.0",
+    "sourceline": "ppa:raphink/augeas-1.3.0",
+    "key_url": null
+  },
+  {
+    "alias": "augeas-dev",
+    "sourceline": "ppa:raphink/augeas-dev",
+    "key_url": null
+  },
+  {
+    "alias": "augeas-old",
+    "sourceline": "ppa:raphink/augeas-old",
+    "key_url": null
+  },
+  {
     "alias": "avsm",
     "sourceline": "ppa:avsm/ppa",
     "key_url": null
