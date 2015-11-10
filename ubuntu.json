@@ -255,6 +255,11 @@
     "key_url": "https://www.rabbitmq.com/rabbitmq-signing-key-public.asc"
   },
   {
+    "alias": "s3tools",
+    "sourceline": "deb http://s3tools.org/repo/deb-all stable/",
+    "key_url": "http://s3tools.org/repo/deb-all/stable/s3tools.key"
+  },
+  {
     "alias": "tmate",
     "sourceline": "ppa:nviennot/tmate",
     "key_url": null
