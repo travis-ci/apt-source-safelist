@@ -260,6 +260,11 @@
     "key_url": null
   },
   {
+    "alias": "trusty-backport-vips",
+    "sourceline": "ppa:lovell/trusty-backport-vips",
+    "key_url": null
+  },
+  {
     "alias": "ubuntu-sdk-team",
     "sourceline": "ppa:ubuntu-sdk-team/ppa",
     "key_url": null
