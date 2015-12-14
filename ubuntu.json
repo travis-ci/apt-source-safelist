@@ -215,6 +215,11 @@
     "key_url": "https://apt.mopidy.com/mopidy.gpg"
   },
   {
+    "alias": "neovim",
+    "sourceline": "ppa:neovim-ppa/unstable",
+    "key_url": null
+  },
+  {
     "alias": "partner-precise",
     "sourceline": "deb http://archive.canonical.com/ubuntu precise partner",
     "key_url": null
