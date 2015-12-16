@@ -245,6 +245,36 @@
     "key_url": null
   },
   {
+    "alias": "qt502",
+    "sourceline": "ppa:beineri/opt-qt502",
+    "key_url": null
+  },
+  {
+    "alias": "qt511",
+    "sourceline": "ppa:beineri/opt-qt511",
+    "key_url": null
+  },
+  {
+    "alias": "qt521",
+    "sourceline": "ppa:beineri/opt-qt521",
+    "key_url": null
+  },
+  {
+    "alias": "qt532",
+    "sourceline": "ppa:beineri/opt-qt532",
+    "key_url": null
+  },
+  {
+    "alias": "qt542",
+    "sourceline": "ppa:beineri/opt-qt542",
+    "key_url": null
+  },
+  {
+    "alias": "qt551",
+    "sourceline": "ppa:beineri/opt-qt551",
+    "key_url": null
+  },  
+  {
     "alias": "r-packages-precise",
     "sourceline": "deb http://cran.rstudio.com/bin/linux/ubuntu precise/",
     "key_url": "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x51716619E084DAB9"
