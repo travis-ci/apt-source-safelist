@@ -270,8 +270,8 @@
     "key_url": "https://www.rabbitmq.com/rabbitmq-signing-key-public.asc"
   },
   {
-    "alias" : "team-gcc-arm-embedded",
-    "sourceline" : "ppa:team-gcc-arm-embedded/ppa",
+    "alias": "team-gcc-arm-embedded",
+    "sourceline": "ppa:team-gcc-arm-embedded/ppa",
     "key_url": null
   },
   {
