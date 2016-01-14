@@ -270,6 +270,16 @@
     "key_url": "https://www.rabbitmq.com/rabbitmq-signing-key-public.asc"
   },
   {
+    "alias": "tigl-precise",
+    "sourceline": "deb http://download.opensuse.org/repositories/home:/martinsiggel/xUbuntu_12.04/ /",
+    "key_url": "http://download.opensuse.org/repositories/home:martinsiggel/xUbuntu_12.04/Release.key"
+  },
+  {
+    "alias": "tigl-trusty",
+    "sourceline": "deb http://download.opensuse.org/repositories/home:/martinsiggel/xUbuntu_14.04/ /",
+    "key_url": "http://download.opensuse.org/repositories/home:martinsiggel/xUbuntu_14.04/Release.key"
+  },
+  {
     "alias": "tmate",
     "sourceline": "ppa:nviennot/tmate",
     "key_url": null
