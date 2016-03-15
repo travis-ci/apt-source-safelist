@@ -126,7 +126,7 @@
   },
   {
     "alias": "google-chrome",
-    "sourceline": "deb http://dl.google.com/linux/chrome/deb/ stable main",
+    "sourceline": "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main",
     "key_url": "https://dl-ssl.google.com/linux/linux_signing_key.pub"
   },
   {
