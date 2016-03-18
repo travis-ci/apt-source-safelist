@@ -280,6 +280,11 @@
     "key_url": null
   },
   {
+    "alias": "travis-ci/sqlite3",
+    "sourceline": "ppa:travis-ci/sqlite3",
+    "key_url": null
+  },
+  {
     "alias": "ubuntu-sdk-team",
     "sourceline": "ppa:ubuntu-sdk-team/ppa",
     "key_url": null
