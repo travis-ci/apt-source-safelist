@@ -56,13 +56,23 @@
   },
   {
     "alias": "chef-current-precise",
-    "sourceline": "deb https://packagecloud.io/chef/current/ubuntu/ precise main",
-    "key_url": "https://packagecloud.io/gpg.key"
+    "sourceline": "deb https://packages.chef.io/current-apt precise main",
+    "key_url": "https://downloads.chef.io/packages-chef-io-public.key"
   },
   {
     "alias": "chef-stable-precise",
-    "sourceline": "deb https://packagecloud.io/chef/stable/ubuntu/ precise main",
-    "key_url": "https://packagecloud.io/gpg.key"
+    "sourceline": "deb https://packages.chef.io/stable-apt precise main",
+    "key_url": "https://downloads.chef.io/packages-chef-io-public.key"
+  },
+  {
+    "alias": "chef-current-trusty",
+    "sourceline": "deb https://packages.chef.io/current-apt trusty main",
+    "key_url": "https://downloads.chef.io/packages-chef-io-public.key"
+  },
+  {
+    "alias": "chef-stable-trusty",
+    "sourceline": "deb https://packages.chef.io/stable-apt trusty main",
+    "key_url": "https://downloads.chef.io/packages-chef-io-public.key"
   },
   {
     "alias": "couchbase-precise",
