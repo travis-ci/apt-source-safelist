@@ -56,13 +56,23 @@
   },
   {
     "alias": "chef-current-precise",
-    "sourceline": "deb https://packagecloud.io/chef/current/ubuntu/ precise main",
-    "key_url": "https://packagecloud.io/gpg.key"
+    "sourceline": "deb https://packages.chef.io/current-apt precise main",
+    "key_url": "https://downloads.chef.io/packages-chef-io-public.key"
   },
   {
     "alias": "chef-stable-precise",
-    "sourceline": "deb https://packagecloud.io/chef/stable/ubuntu/ precise main",
-    "key_url": "https://packagecloud.io/gpg.key"
+    "sourceline": "deb https://packages.chef.io/stable-apt precise main",
+    "key_url": "https://downloads.chef.io/packages-chef-io-public.key"
+  },
+  {
+    "alias": "chef-current-trusty",
+    "sourceline": "deb https://packages.chef.io/current-apt trusty main",
+    "key_url": "https://downloads.chef.io/packages-chef-io-public.key"
+  },
+  {
+    "alias": "chef-stable-trusty",
+    "sourceline": "deb https://packages.chef.io/stable-apt trusty main",
+    "key_url": "https://downloads.chef.io/packages-chef-io-public.key"
   },
   {
     "alias": "couchbase-precise",
@@ -117,6 +127,11 @@
   {
     "alias": "george-edison55-precise-backports",
     "sourceline": "ppa:george-edison55/precise-backports",
+    "key_url": null
+  },
+  {
+    "alias": "git-core",
+    "sourceline": "ppa:git-core/ppa",
     "key_url": null
   },
   {
@@ -202,6 +217,11 @@
   {
     "alias": "mongodb-3.0-precise",
     "sourceline": "deb http://repo.mongodb.org/apt/ubuntu precise/mongodb-org/3.0 multiverse",
+    "key_url": "http://keyserver.ubuntu.com/pks/lookup?op=get&fingerprint=on&search=0x9ECBEC467F0CEB10"
+  },
+  {
+    "alias": "mongodb-3.2-precise",
+    "sourceline": "deb http://repo.mongodb.org/apt/ubuntu precise/mongodb-org/3.2 multiverse",
     "key_url": "http://keyserver.ubuntu.com/pks/lookup?op=get&fingerprint=on&search=0x9ECBEC467F0CEB10"
   },
   {
@@ -292,6 +312,11 @@
   {
     "alias": "tmate",
     "sourceline": "ppa:nviennot/tmate",
+    "key_url": null
+  },
+  {
+    "alias": "travis-ci/sqlite3",
+    "sourceline": "ppa:travis-ci/sqlite3",
     "key_url": null
   },
   {
