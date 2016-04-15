@@ -140,6 +140,11 @@
     "key_url": "https://dl-ssl.google.com/linux/linux_signing_key.pub"
   },
   {
+    "alias": "google-cloud",
+    "sourceline": "deb http://packages.cloud.google.com/apt trusty main",
+    "key_url": "https://packages.cloud.google.com/apt/doc/apt-key.gpg"
+  },
+  {
     "alias": "heroku",
     "sourceline": "deb http://toolbelt.heroku.com/ubuntu ./",
     "key_url": "https://toolbelt.heroku.com/apt/release.key"
