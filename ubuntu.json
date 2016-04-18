@@ -60,13 +60,13 @@
     "key_url": "https://downloads.chef.io/packages-chef-io-public.key"
   },
   {
-    "alias": "chef-stable-precise",
-    "sourceline": "deb https://packages.chef.io/stable-apt precise main",
+    "alias": "chef-current-trusty",
+    "sourceline": "deb https://packages.chef.io/current-apt trusty main",
     "key_url": "https://downloads.chef.io/packages-chef-io-public.key"
   },
   {
-    "alias": "chef-current-trusty",
-    "sourceline": "deb https://packages.chef.io/current-apt trusty main",
+    "alias": "chef-stable-precise",
+    "sourceline": "deb https://packages.chef.io/stable-apt precise main",
     "key_url": "https://downloads.chef.io/packages-chef-io-public.key"
   },
   {
