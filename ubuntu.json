@@ -155,6 +155,11 @@
     "key_url": null
   },
   {
+    "alias": "jamey-hicks-connectal",
+    "sourceline": "ppa:jamey-hicks/connectal",
+    "key_url": null
+  },
+  {
     "alias": "kalakris-cmake",
     "sourceline": "ppa:kalakris/cmake",
     "key_url": null
