@@ -245,6 +245,16 @@
     "key_url": "https://apt.mopidy.com/mopidy.gpg"
   },
   {
+    "alias": "mysql-5.7-precise",
+    "sourceline": "deb http://repo.mysql.com/apt/ubuntu/ precise mysql-5.7",
+    "key_url": "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x8C718D3B5072E1F5"
+  },
+  {
+    "alias": "mysql-5.7-trusty",
+    "sourceline": "deb http://repo.mysql.com/apt/ubuntu/ trusty mysql-5.7",
+    "key_url": "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x8C718D3B5072E1F5"
+  },
+  {
     "alias": "partner-precise",
     "sourceline": "deb http://archive.canonical.com/ubuntu precise partner",
     "key_url": null
