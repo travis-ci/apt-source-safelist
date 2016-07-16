@@ -115,6 +115,36 @@
     "key_url": "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x16126D3A3E5C1192"
   },
   {
+    "alias": "fpcomplete-precise",
+    "sourceline": "deb http://download.fpcomplete.com/ubuntu precise main",
+    "key_url": "https://s3.amazonaws.com/download.fpcomplete.com/ubuntu/fpco.key"
+  },
+  {
+    "alias": "fpcomplete-trusty",
+    "sourceline": "deb http://download.fpcomplete.com/ubuntu trusty main",
+    "key_url": "https://s3.amazonaws.com/download.fpcomplete.com/ubuntu/fpco.key"
+  },
+  {
+    "alias": "fpcomplete-utopic",
+    "sourceline": "deb http://download.fpcomplete.com/ubuntu utopic main",
+    "key_url": "https://s3.amazonaws.com/download.fpcomplete.com/ubuntu/fpco.key"
+  },
+  {
+    "alias": "fpcomplete-vivid",
+    "sourceline": "deb http://download.fpcomplete.com/ubuntu vivid main",
+    "key_url": "https://s3.amazonaws.com/download.fpcomplete.com/ubuntu/fpco.key"
+  },
+  {
+    "alias": "fpcomplete-wily",
+    "sourceline": "deb http://download.fpcomplete.com/ubuntu wily main",
+    "key_url": "https://s3.amazonaws.com/download.fpcomplete.com/ubuntu/fpco.key"
+  },
+  {
+    "alias": "fpcomplete-xenial",
+    "sourceline": "deb http://download.fpcomplete.com/ubuntu xenial main",
+    "key_url": "https://s3.amazonaws.com/download.fpcomplete.com/ubuntu/fpco.key"
+  },
+  {
     "alias": "gammu",
     "sourceline": "ppa:nijel/ppa",
     "key_url": null
