@@ -110,6 +110,11 @@
     "key_url": "https://packages.elastic.co/GPG-KEY-elasticsearch"
   },
   {
+    "alias": "elasticsearch-2.x",
+    "sourceline": "deb http://packages.elastic.co/elasticsearch/2.x/debian stable main",
+    "key_url": "https://packages.elastic.co/GPG-KEY-elasticsearch"
+  },
+  {
     "alias": "extras-precise",
     "sourceline": "deb http://extras.ubuntu.com/ubuntu precise main",
     "key_url": "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x16126D3A3E5C1192"
