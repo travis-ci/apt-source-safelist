@@ -125,16 +125,6 @@
     "key_url": "https://s3.amazonaws.com/download.fpcomplete.com/ubuntu/fpco.key"
   },
   {
-    "alias": "fpcomplete-utopic",
-    "sourceline": "deb http://download.fpcomplete.com/ubuntu utopic main",
-    "key_url": "https://s3.amazonaws.com/download.fpcomplete.com/ubuntu/fpco.key"
-  },
-  {
-    "alias": "fpcomplete-vivid",
-    "sourceline": "deb http://download.fpcomplete.com/ubuntu vivid main",
-    "key_url": "https://s3.amazonaws.com/download.fpcomplete.com/ubuntu/fpco.key"
-  },
-  {
     "alias": "fpcomplete-wily",
     "sourceline": "deb http://download.fpcomplete.com/ubuntu wily main",
     "key_url": "https://s3.amazonaws.com/download.fpcomplete.com/ubuntu/fpco.key"
