@@ -125,16 +125,6 @@
     "key_url": "https://s3.amazonaws.com/download.fpcomplete.com/ubuntu/fpco.key"
   },
   {
-    "alias": "fpcomplete-wily",
-    "sourceline": "deb http://download.fpcomplete.com/ubuntu wily main",
-    "key_url": "https://s3.amazonaws.com/download.fpcomplete.com/ubuntu/fpco.key"
-  },
-  {
-    "alias": "fpcomplete-xenial",
-    "sourceline": "deb http://download.fpcomplete.com/ubuntu xenial main",
-    "key_url": "https://s3.amazonaws.com/download.fpcomplete.com/ubuntu/fpco.key"
-  },
-  {
     "alias": "gammu",
     "sourceline": "ppa:nijel/ppa",
     "key_url": null
