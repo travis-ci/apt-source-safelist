@@ -150,6 +150,11 @@
     "key_url": null
   },
   {
+    "alias": "glide",
+    "sourceline": "ppa:masterminds/glide",
+    "key_url": "http://keyserver.ubuntu.com:11371/pks/lookup?op=get&search=0xDC9C7A41890C81B2"
+  },
+  {
     "alias": "google-chrome",
     "sourceline": "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main",
     "key_url": "https://dl-ssl.google.com/linux/linux_signing_key.pub"
