@@ -313,7 +313,7 @@
     "alias": "sagemath",
     "sourceline": "ppa:aims/sagemath",
     "key_url": null
-  },  
+  },
   {
     "alias": "tmate",
     "sourceline": "ppa:nviennot/tmate",
