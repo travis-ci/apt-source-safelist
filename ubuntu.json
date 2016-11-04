@@ -56,23 +56,23 @@
   },
   {
     "alias": "chef-current-precise",
-    "sourceline": "deb https://packages.chef.io/current-apt precise main",
-    "key_url": "https://downloads.chef.io/packages-chef-io-public.key"
+    "sourceline": "deb https://packages.chef.io/repos/apt/current precise main",
+    "key_url": "https://packages.chef.io/chef.asc"
   },
   {
     "alias": "chef-current-trusty",
-    "sourceline": "deb https://packages.chef.io/current-apt trusty main",
-    "key_url": "https://downloads.chef.io/packages-chef-io-public.key"
+    "sourceline": "deb https://packages.chef.io/repos/apt/current trusty main",
+    "key_url": "https://packages.chef.io/chef.asc"
   },
   {
     "alias": "chef-stable-precise",
-    "sourceline": "deb https://packages.chef.io/stable-apt precise main",
-    "key_url": "https://downloads.chef.io/packages-chef-io-public.key"
+    "sourceline": "deb https://packages.chef.io/repos/apt/stable precise main",
+    "key_url": "https://packages.chef.io/chef.asc"
   },
   {
     "alias": "chef-stable-trusty",
-    "sourceline": "deb https://packages.chef.io/stable-apt trusty main",
-    "key_url": "https://downloads.chef.io/packages-chef-io-public.key"
+    "sourceline": "deb https://packages.chef.io/repos/apt/stable trusty main",
+    "key_url": "https://packages.chef.io/chef.asc"
   },
   {
     "alias": "couchbase-precise",
