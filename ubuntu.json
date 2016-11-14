@@ -328,5 +328,10 @@
     "alias": "ubuntu-toolchain-r-test",
     "sourceline": "ppa:ubuntu-toolchain-r/test",
     "key_url": null
+  },
+  {
+    "alias": "zeroc-trusty",
+    "sourceline": "deb http://zeroc.com/download/apt/ubuntu14.04 stable main",
+    "key_url": "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x5E6DA83306132997"
   }
 ]
