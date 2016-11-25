@@ -205,6 +205,26 @@
     "key_url": "http://llvm.org/apt/llvm-snapshot.gpg.key"
   },
   {
+    "alias": "llvm-toolchain-trusty",
+    "sourceline": "deb http://llvm.org/apt/trusty/ llvm-toolchain-trusty main",
+    "key_url": "http://llvm.org/apt/llvm-snapshot.gpg.key"
+  },
+  {
+    "alias": "llvm-toolchain-trusty-3.6",
+    "sourceline": "deb http://llvm.org/apt/trusty/ llvm-toolchain-trusty-3.6 main",
+    "key_url": "http://llvm.org/apt/llvm-snapshot.gpg.key"
+  },
+  {
+    "alias": "llvm-toolchain-trusty-3.7",
+    "sourceline": "deb http://llvm.org/apt/trusty/ llvm-toolchain-trusty-3.7 main",
+    "key_url": "http://llvm.org/apt/llvm-snapshot.gpg.key"
+  },
+  {
+    "alias": "llvm-toolchain-trusty-3.8",
+    "sourceline": "deb http://llvm.org/apt/trusty/ llvm-toolchain-trusty-3.8 main",
+    "key_url": "http://llvm.org/apt/llvm-snapshot.gpg.key"
+  },
+  {
     "alias": "lucid",
     "sourceline": "deb http://archive.ubuntu.com/ubuntu/ lucid main",
     "key_url": null
