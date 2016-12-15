@@ -183,7 +183,7 @@
     "alias": "laurent-boulard/devtools",
     "sourceline": "ppa:laurent-boulard/devtools",
     "key_url": null
-  },  
+  },
   {
     "alias": "llvm-toolchain-precise",
     "sourceline": "deb http://llvm.org/apt/precise/ llvm-toolchain-precise main",
