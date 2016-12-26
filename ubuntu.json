@@ -338,5 +338,10 @@
     "alias": "ubuntu-toolchain-r-test",
     "sourceline": "ppa:ubuntu-toolchain-r/test",
     "key_url": null
+  },
+  {
+    "alias": "webupd8team-java",
+    "sourceline": "ppa:webupd8team/java",
+    "key_url": null
   }
 ]
