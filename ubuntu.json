@@ -320,6 +320,16 @@
     "key_url": "https://www.rabbitmq.com/rabbitmq-signing-key-public.asc"
   },
   {
+    "alias": "ros-precise",
+    "sourceline": "deb http://packages.ros.org/ros/ubuntu precise main",
+    "key_url": "http://packages.ros.org/ros.key"
+  },
+  {
+    "alias": "ros-trusty",
+    "sourceline": "deb http://packages.ros.org/ros/ubuntu trusty main",
+    "key_url": "http://packages.ros.org/ros.key"
+  },
+  {
     "alias": "tmate",
     "sourceline": "ppa:nviennot/tmate",
     "key_url": null
