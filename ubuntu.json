@@ -186,28 +186,28 @@
   },
   {
     "alias": "llvm-toolchain-precise",
-    "sourceline": "deb http://llvm.org/apt/precise/ llvm-toolchain-precise main",
-    "key_url": "http://llvm.org/apt/llvm-snapshot.gpg.key"
+    "sourceline": "deb http://apt.llvm.org/precise/ llvm-toolchain-precise main",
+    "key_url": "http://apt.llvm.org/llvm-snapshot.gpg.key"
   },
   {
     "alias": "llvm-toolchain-precise-3.5",
-    "sourceline": "deb http://llvm.org/apt/precise/ llvm-toolchain-precise-3.5 main",
-    "key_url": "http://llvm.org/apt/llvm-snapshot.gpg.key"
+    "sourceline": "deb http://apt.llvm.org/precise/ llvm-toolchain-precise-3.5 main",
+    "key_url": "http://apt.llvm.org/llvm-snapshot.gpg.key"
   },
   {
     "alias": "llvm-toolchain-precise-3.6",
-    "sourceline": "deb http://llvm.org/apt/precise/ llvm-toolchain-precise-3.6 main",
-    "key_url": "http://llvm.org/apt/llvm-snapshot.gpg.key"
+    "sourceline": "deb http://apt.llvm.org/precise/ llvm-toolchain-precise-3.6 main",
+    "key_url": "http://apt.llvm.org/llvm-snapshot.gpg.key"
   },
   {
     "alias": "llvm-toolchain-precise-3.7",
-    "sourceline": "deb http://llvm.org/apt/precise/ llvm-toolchain-precise-3.7 main",
-    "key_url": "http://llvm.org/apt/llvm-snapshot.gpg.key"
+    "sourceline": "deb http://apt.llvm.org/precise/ llvm-toolchain-precise-3.7 main",
+    "key_url": "http://apt.llvm.org/llvm-snapshot.gpg.key"
   },
   {
     "alias": "llvm-toolchain-precise-3.8",
-    "sourceline": "deb http://llvm.org/apt/precise/ llvm-toolchain-precise-3.8 main",
-    "key_url": "http://llvm.org/apt/llvm-snapshot.gpg.key"
+    "sourceline": "deb http://apt.llvm.org/precise/ llvm-toolchain-precise-3.8 main",
+    "key_url": "http://apt.llvm.org/llvm-snapshot.gpg.key"
   },
   {
     "alias": "llvm-toolchain-precise-3.9",
