@@ -186,27 +186,27 @@
   },
   {
     "alias": "llvm-toolchain-precise",
-    "sourceline": "deb http://llvm.org/apt/precise/ llvm-toolchain-precise main",
+    "sourceline": "deb http://apt.llvm.org/precise/ llvm-toolchain-precise main",
     "key_url": "http://llvm.org/apt/llvm-snapshot.gpg.key"
   },
   {
     "alias": "llvm-toolchain-precise-3.5",
-    "sourceline": "deb http://llvm.org/apt/precise/ llvm-toolchain-precise-3.5 main",
+    "sourceline": "deb http://apt.llvm.org/precise/ llvm-toolchain-precise-3.5 main",
     "key_url": "http://llvm.org/apt/llvm-snapshot.gpg.key"
   },
   {
     "alias": "llvm-toolchain-precise-3.6",
-    "sourceline": "deb http://llvm.org/apt/precise/ llvm-toolchain-precise-3.6 main",
+    "sourceline": "deb http://apt.llvm.org/precise/ llvm-toolchain-precise-3.6 main",
     "key_url": "http://llvm.org/apt/llvm-snapshot.gpg.key"
   },
   {
     "alias": "llvm-toolchain-precise-3.7",
-    "sourceline": "deb http://llvm.org/apt/precise/ llvm-toolchain-precise-3.7 main",
+    "sourceline": "deb http://apt.llvm.org/precise/ llvm-toolchain-precise-3.7 main",
     "key_url": "http://llvm.org/apt/llvm-snapshot.gpg.key"
   },
   {
     "alias": "llvm-toolchain-precise-3.8",
-    "sourceline": "deb http://llvm.org/apt/precise/ llvm-toolchain-precise-3.8 main",
+    "sourceline": "deb http://apt.llvm.org/precise/ llvm-toolchain-precise-3.8 main",
     "key_url": "http://llvm.org/apt/llvm-snapshot.gpg.key"
   },
   {
@@ -216,7 +216,7 @@
   },
   {
     "alias": "llvm-toolchain-trusty",
-    "sourceline": "deb http://llvm.org/apt/trusty/ llvm-toolchain-trusty main",
+    "sourceline": "deb http://apt.llvm.org/trusty/ llvm-toolchain-trusty main",
     "key_url": "http://llvm.org/apt/llvm-snapshot.gpg.key"
   },
   {
@@ -226,7 +226,7 @@
   },
   {
     "alias": "llvm-toolchain-trusty-4.0",
-    "sourceline": "deb http://llvm.org/apt/trusty/ llvm-toolchain-trusty-4.0 main",
+    "sourceline": "deb http://apt.llvm.org/trusty/ llvm-toolchain-trusty-4.0 main",
     "key_url": "http://llvm.org/apt/llvm-snapshot.gpg.key"
   },
   {
