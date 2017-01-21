@@ -353,5 +353,10 @@
     "alias": "ubuntu-toolchain-r-test",
     "sourceline": "ppa:ubuntu-toolchain-r/test",
     "key_url": null
+  },
+  {
+    "alias": "ubuntu1204-qt5",
+    "sourceline": "ppa:canonical-qt5-edgers/ubuntu1204-qt5",
+    "key_url": null
   }
 ]
