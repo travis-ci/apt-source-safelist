@@ -215,6 +215,11 @@
     "key_url": "http://apt.llvm.org/llvm-snapshot.gpg.key"
   },
   {
+    "alias": "llvm-toolchain-precise-4.0",
+    "sourceline": "deb http://apt.llvm.org/precise/ llvm-toolchain-precise-4.0 main",
+    "key_url": "http://apt.llvm.org/llvm-snapshot.gpg.key"
+  },
+  {
     "alias": "llvm-toolchain-trusty",
     "sourceline": "deb http://apt.llvm.org/trusty/ llvm-toolchain-trusty main",
     "key_url": "http://apt.llvm.org/llvm-snapshot.gpg.key"
