@@ -345,6 +345,11 @@
     "key_url": null
   },
   {
+    "alias": "trusty-media",
+    "sourceline": "ppa:mc3man/trusty-media",
+    "key_url": null
+  },
+  {
     "alias": "ubuntu-sdk-team",
     "sourceline": "ppa:ubuntu-sdk-team/ppa",
     "key_url": null
