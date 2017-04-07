@@ -285,8 +285,18 @@
     "key_url": "https://apt.mopidy.com/mopidy.gpg"
   },
   {
+    "alias": "mrpt-latest",
+    "sourceline": "ppa:joseluisblancoc/mrpt",
+    "key_url": null
+  },
+  {
     "alias": "partner-precise",
     "sourceline": "deb http://archive.canonical.com/ubuntu precise partner",
+    "key_url": null
+  },
+  {
+    "alias": "pcl-latest",
+    "sourceline": "ppa:v-launchpad-jochen-sprickerhof-de/pcl",
     "key_url": null
   },
   {
