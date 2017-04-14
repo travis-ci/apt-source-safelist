@@ -50,6 +50,11 @@
     "key_url": null
   },
   {
+    "alias": "bsdowl",
+    "sourceline": "ppa:michipili/bsdowl",
+    "key_url": null
+  },
+  {
     "alias": "cassou-emacs",
     "sourceline": "ppa:cassou/emacs",
     "key_url": null
