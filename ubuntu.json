@@ -345,6 +345,11 @@
     "key_url": "https://www.rabbitmq.com/rabbitmq-signing-key-public.asc"
   },
   {
+    "alias": "sagemath",
+    "sourceline": "ppa:aims/sagemath",
+    "key_url": null
+  },
+  {
     "alias": "tmate",
     "sourceline": "ppa:nviennot/tmate",
     "key_url": null
