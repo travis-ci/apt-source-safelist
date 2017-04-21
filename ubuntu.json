@@ -140,6 +140,11 @@
     "key_url": null
   },
   {
+    "alias": "gcc-arm-embedded",
+    "sourceline": "ppa:team-gcc-arm-embedded/ppa",
+    "key_url": null
+  },
+  {
     "alias": "gearman-developers",
     "sourceline": "ppa:gearman-developers/ppa",
     "key_url": null
