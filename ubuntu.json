@@ -100,13 +100,8 @@
     "key_url": "https://packages.elastic.co/GPG-KEY-elasticsearch"
   },
   {
-    "alias": "elasticsearch-2.0",
-    "sourceline": "deb http://packages.elastic.co/elasticsearch/2.0/debian stable main",
-    "key_url": "https://packages.elastic.co/GPG-KEY-elasticsearch"
-  },
-  {
-    "alias": "elasticsearch-2.1",
-    "sourceline": "deb http://packages.elastic.co/elasticsearch/2.1/debian stable main",
+    "alias": "elasticsearch-2.x",
+    "sourceline": "deb http://packages.elastic.co/elasticsearch/2.x/debian stable main",
     "key_url": "https://packages.elastic.co/GPG-KEY-elasticsearch"
   },
   {
