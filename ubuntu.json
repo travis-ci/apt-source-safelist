@@ -166,8 +166,8 @@
   },
   {
     "alias": "heroku",
-    "sourceline": "deb http://toolbelt.heroku.com/ubuntu ./",
-    "key_url": "https://toolbelt.heroku.com/apt/release.key"
+    "sourceline": "deb http://cli-assets.heroku.com/branches/stable/apt ./",
+    "key_url": "https://cli-assets.heroku.com/apt/release.key"
   },
   {
     "alias": "hvr-ghc",
