@@ -185,6 +185,11 @@
     "key_url": null
   },
   {
+    "alias": "libsodium",
+    "sourceline": "ppa:chris-lea/libsodium",
+    "key_url": null
+  },
+  {
     "alias": "llvm-toolchain-precise",
     "sourceline": "deb http://apt.llvm.org/precise/ llvm-toolchain-precise main",
     "key_url": "http://apt.llvm.org/llvm-snapshot.gpg.key"
