@@ -161,7 +161,12 @@
   },
   {
     "alias": "google-cloud",
-    "sourceline": "deb http://packages.cloud.google.com/apt trusty main",
+    "sourceline": "deb http://packages.cloud.google.com/apt cloud-sdk-precise main",
+    "key_url": "https://packages.cloud.google.com/apt/doc/apt-key.gpg"
+  },
+  {
+    "alias": "google-cloud-trusty",
+    "sourceline": "deb http://packages.cloud.google.com/apt cloud-sdk-trusty main",
     "key_url": "https://packages.cloud.google.com/apt/doc/apt-key.gpg"
   },
   {
