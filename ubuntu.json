@@ -255,9 +255,19 @@
     "key_url": "http://keyserver.ubuntu.com/pks/lookup?op=get&fingerprint=on&search=0x9ECBEC467F0CEB10"
   },
   {
+    "alias": "mongodb-3.2-trusty",
+    "sourceline": "deb [arch=amd64] http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.2 multiverse",
+    "key_url": "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x0C49F3730359A14518585931BC711F9BA15703C6"
+  },
+  {
     "alias": "mongodb-3.4-precise",
     "sourceline": "deb [arch=amd64] http://repo.mongodb.org/apt/ubuntu precise/mongodb-org/3.4 multiverse",
     "key_url": "https://www.mongodb.org/static/pgp/server-3.4.asc"
+  },
+  {
+    "alias": "mongodb-3.4-trusty",
+    "sourceline": "deb [arch=amd64] http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.4 multiverse",
+    "key_url": "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x0C49F3730359A14518585931BC711F9BA15703C6"
   },
   {
     "alias": "mongodb-upstart",
