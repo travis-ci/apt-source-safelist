@@ -388,5 +388,10 @@
     "alias": "ubuntu-toolchain-r-test",
     "sourceline": "ppa:ubuntu-toolchain-r/test",
     "key_url": null
+  },
+  {
+    "alias": "universe-factory",
+    "sourceline": "deb http://repo.universe-factory.net/debian/ sid main",
+    "key_url": "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x16EF3F64CB201D9C"
   }
 ]
