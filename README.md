@@ -1,15 +1,7 @@
 # APT source whitelist
 
-This repo contains JSON files for the sources approved for addition in restricted build environments, specifically meant for the `apt` addon in travis-build.
+This repo contains JSON files for the sources approved for addition in restricted build environments, specifically meant for the `apt` addon in travis-build. You can check here [how to install packages with the APT addon](https://docs.travis-ci.com/user/installing-dependencies#Installing-Packages-with-the-APT-Addon).
 
-## Source approval process
+At this moment, we are unable to continue processing the APT sources requests. If you require a new source, please use `sudo: required` in your `.travis.yml` file.
 
-0. Check the list of approved source for your build environment (most likely [`ubuntu`](./ubuntu.json)).
-0. If it's not in there, check for [existing issues requesting the source you 
-   want](https://github.com/travis-ci/apt-source-whitelist/issues), and if one doesn't exist please
-   open an issue requesting the source you need in the [this
-   repo](https://github.com/travis-ci/apt-source-whitelist/issues/new?title=APT+source+whitelist+request+for+___SOURCE___)
-   (and be sure to replace `__SOURCE__` in the issue title :wink:).  The body of the issue must include the "deb 
-   source line" which may be a ppa alias such as `ppa:fkrull/deadsnakes`.
-   If the deb source is not a PPA, you must also include the URL to the GPG key.
-0. Please be patient :smiley_cat:
+Thank you!
