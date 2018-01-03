@@ -81,7 +81,7 @@
   },
   {
     "alias": "deadsnakes",
-    "sourceline": "ppa:fkrull/deadsnakes",
+    "sourceline": "ppa:deadsnakes/ppa",
     "key_url": null
   },
   {
