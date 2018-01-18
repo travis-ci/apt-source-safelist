@@ -388,5 +388,10 @@
     "alias": "ubuntu-toolchain-r-test",
     "sourceline": "ppa:ubuntu-toolchain-r/test",
     "key_url": null
+  },
+  {
+    "alias": "yosys",
+    "sourceline": "ppa:saltmakrell/ppa",
+    "key_url": null
   }
 ]
