@@ -388,5 +388,10 @@
     "alias": "ubuntu-toolchain-r-test",
     "sourceline": "ppa:ubuntu-toolchain-r/test",
     "key_url": null
+  },
+  {
+    "alias": "yarn",
+    "sourceline": "deb http://dl.yarnpkg.com/debian/ stable main",
+    "key_url": "http://dl.yarnpkg.com/debian/pubkey.gpg"
   }
 ]
