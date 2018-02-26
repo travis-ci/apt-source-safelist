@@ -1,5 +1,45 @@
 [
   {
+    "alias": "augeas",
+    "sourceline": "ppa:raphink/augeas",
+    "key_url": null
+  },
+  {
+    "alias": "augeas-0.10.0",
+    "sourceline": "ppa:raphink/augeas-0.10.0",
+    "key_url": null
+  },
+  {
+    "alias": "augeas-1.0.0",
+    "sourceline": "ppa:raphink/augeas-1.0.0",
+    "key_url": null
+  },
+  {
+    "alias": "augeas-1.1.0",
+    "sourceline": "ppa:raphink/augeas-1.1.0",
+    "key_url": null
+  },
+  {
+    "alias": "augeas-1.2.0",
+    "sourceline": "ppa:raphink/augeas-1.2.0",
+    "key_url": null
+  },
+  {
+    "alias": "augeas-1.3.0",
+    "sourceline": "ppa:raphink/augeas-1.3.0",
+    "key_url": null
+  },
+  {
+    "alias": "augeas-dev",
+    "sourceline": "ppa:raphink/augeas-dev",
+    "key_url": null
+  },
+  {
+    "alias": "augeas-old",
+    "sourceline": "ppa:raphink/augeas-old",
+    "key_url": null
+  },
+  {
     "alias": "avsm",
     "sourceline": "ppa:avsm/ppa",
     "key_url": null
@@ -16,13 +56,23 @@
   },
   {
     "alias": "chef-current-precise",
-    "sourceline": "deb https://packagecloud.io/chef/current/ubuntu/ precise main",
-    "key_url": "https://packagecloud.io/gpg.key"
+    "sourceline": "deb https://packages.chef.io/repos/apt/current precise main",
+    "key_url": "https://packages.chef.io/chef.asc"
+  },
+  {
+    "alias": "chef-current-trusty",
+    "sourceline": "deb https://packages.chef.io/repos/apt/current trusty main",
+    "key_url": "https://packages.chef.io/chef.asc"
   },
   {
     "alias": "chef-stable-precise",
-    "sourceline": "deb https://packagecloud.io/chef/stable/ubuntu/ precise main",
-    "key_url": "https://packagecloud.io/gpg.key"
+    "sourceline": "deb https://packages.chef.io/repos/apt/stable precise main",
+    "key_url": "https://packages.chef.io/chef.asc"
+  },
+  {
+    "alias": "chef-stable-trusty",
+    "sourceline": "deb https://packages.chef.io/repos/apt/stable trusty main",
+    "key_url": "https://packages.chef.io/chef.asc"
   },
   {
     "alias": "couchbase-precise",
@@ -31,13 +81,43 @@
   },
   {
     "alias": "deadsnakes",
-    "sourceline": "ppa:fkrull/deadsnakes",
+    "sourceline": "ppa:deadsnakes/ppa",
     "key_url": null
   },
   {
     "alias": "debian-sid",
     "sourceline": "deb http://ftp.us.debian.org/debian unstable main contrib non-free",
     "key_url": "https://ftp-master.debian.org/keys/archive-key-7.0.asc"
+  },
+  {
+    "alias": "elasticsearch-1.6",
+    "sourceline": "deb http://packages.elastic.co/elasticsearch/1.6/debian stable main",
+    "key_url": "https://packages.elastic.co/GPG-KEY-elasticsearch"
+  },
+  {
+    "alias": "elasticsearch-1.7",
+    "sourceline": "deb http://packages.elastic.co/elasticsearch/1.7/debian stable main",
+    "key_url": "https://packages.elastic.co/GPG-KEY-elasticsearch"
+  },
+  {
+    "alias": "elasticsearch-2.0",
+    "sourceline": "deb http://packages.elastic.co/elasticsearch/2.0/debian stable main",
+    "key_url": "https://packages.elastic.co/GPG-KEY-elasticsearch"
+  },
+  {
+    "alias": "elasticsearch-2.1",
+    "sourceline": "deb http://packages.elastic.co/elasticsearch/2.1/debian stable main",
+    "key_url": "https://packages.elastic.co/GPG-KEY-elasticsearch"
+  },
+  {
+    "alias": "elasticsearch-2.x",
+    "sourceline": "deb http://packages.elastic.co/elasticsearch/2.x/debian stable main",
+    "key_url": "https://packages.elastic.co/GPG-KEY-elasticsearch"
+  },
+  {
+    "alias": "elasticsearch-5.x",
+    "sourceline": "deb https://artifacts.elastic.co/packages/5.x/apt stable main",
+    "key_url": "https://packages.elastic.co/GPG-KEY-elasticsearch"
   },
   {
     "alias": "extras-precise",
@@ -48,6 +128,16 @@
     "alias": "fcl",
     "sourceline": "ppa:fcl-debs/ppa",
     "key_url": null
+  },
+  {
+    "alias": "fpcomplete-precise",
+    "sourceline": "deb http://download.fpcomplete.com/ubuntu precise main",
+    "key_url": "https://s3.amazonaws.com/download.fpcomplete.com/ubuntu/fpco.key"
+  },
+  {
+    "alias": "fpcomplete-trusty",
+    "sourceline": "deb http://download.fpcomplete.com/ubuntu trusty main",
+    "key_url": "https://s3.amazonaws.com/download.fpcomplete.com/ubuntu/fpco.key"
   },
   {
     "alias": "gammu",
@@ -63,6 +153,26 @@
     "alias": "george-edison55-precise-backports",
     "sourceline": "ppa:george-edison55/precise-backports",
     "key_url": null
+  },
+  {
+    "alias": "git-core",
+    "sourceline": "ppa:git-core/ppa",
+    "key_url": null
+  },
+  {
+    "alias": "google-chrome",
+    "sourceline": "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main",
+    "key_url": "https://dl-ssl.google.com/linux/linux_signing_key.pub"
+  },
+  {
+    "alias": "google-cloud",
+    "sourceline": "deb http://packages.cloud.google.com/apt trusty main",
+    "key_url": "https://packages.cloud.google.com/apt/doc/apt-key.gpg"
+  },
+  {
+    "alias": "heroku",
+    "sourceline": "deb http://cli-assets.heroku.com/branches/stable/apt ./",
+    "key_url": "https://cli-assets.heroku.com/apt/release.key"
   },
   {
     "alias": "hvr-ghc",
@@ -81,23 +191,53 @@
   },
   {
     "alias": "llvm-toolchain-precise",
-    "sourceline": "deb http://llvm.org/apt/precise/ llvm-toolchain-precise main",
-    "key_url": "http://llvm.org/apt/llvm-snapshot.gpg.key"
+    "sourceline": "deb http://apt.llvm.org/precise/ llvm-toolchain-precise main",
+    "key_url": "http://apt.llvm.org/llvm-snapshot.gpg.key"
   },
   {
     "alias": "llvm-toolchain-precise-3.5",
-    "sourceline": "deb http://llvm.org/apt/precise/ llvm-toolchain-precise-3.5 main",
-    "key_url": "http://llvm.org/apt/llvm-snapshot.gpg.key"
+    "sourceline": "deb http://apt.llvm.org/precise/ llvm-toolchain-precise-3.5 main",
+    "key_url": "http://apt.llvm.org/llvm-snapshot.gpg.key"
   },
   {
     "alias": "llvm-toolchain-precise-3.6",
-    "sourceline": "deb http://llvm.org/apt/precise/ llvm-toolchain-precise-3.6 main",
-    "key_url": "http://llvm.org/apt/llvm-snapshot.gpg.key"
+    "sourceline": "deb http://apt.llvm.org/precise/ llvm-toolchain-precise-3.6 main",
+    "key_url": "http://apt.llvm.org/llvm-snapshot.gpg.key"
   },
   {
     "alias": "llvm-toolchain-precise-3.7",
-    "sourceline": "deb http://llvm.org/apt/precise/ llvm-toolchain-precise-3.7 main",
-    "key_url": "http://llvm.org/apt/llvm-snapshot.gpg.key"
+    "sourceline": "deb http://apt.llvm.org/precise/ llvm-toolchain-precise-3.7 main",
+    "key_url": "http://apt.llvm.org/llvm-snapshot.gpg.key"
+  },
+  {
+    "alias": "llvm-toolchain-precise-3.8",
+    "sourceline": "deb http://apt.llvm.org/precise/ llvm-toolchain-precise-3.8 main",
+    "key_url": "http://apt.llvm.org/llvm-snapshot.gpg.key"
+  },
+  {
+    "alias": "llvm-toolchain-precise-3.9",
+    "sourceline": "deb http://apt.llvm.org/precise/ llvm-toolchain-precise-3.9 main",
+    "key_url": "http://apt.llvm.org/llvm-snapshot.gpg.key"
+  },
+  {
+    "alias": "llvm-toolchain-trusty",
+    "sourceline": "deb http://apt.llvm.org/trusty/ llvm-toolchain-trusty main",
+    "key_url": "http://apt.llvm.org/llvm-snapshot.gpg.key"
+  },
+  {
+    "alias": "llvm-toolchain-trusty-3.9",
+    "sourceline": "deb http://apt.llvm.org/trusty/ llvm-toolchain-trusty-3.9 main",
+    "key_url": "http://apt.llvm.org/llvm-snapshot.gpg.key"
+  },
+  {
+    "alias": "llvm-toolchain-trusty-4.0",
+    "sourceline": "deb http://apt.llvm.org/trusty/ llvm-toolchain-trusty-4.0 main",
+    "key_url": "http://apt.llvm.org/llvm-snapshot.gpg.key"
+  },
+  {
+    "alias": "llvm-toolchain-trusty-5.0",
+    "sourceline": "deb http://apt.llvm.org/trusty/ llvm-toolchain-trusty-5.0 main",
+    "key_url": "http://apt.llvm.org/llvm-snapshot.gpg.key"
   },
   {
     "alias": "lucid",
@@ -110,14 +250,74 @@
     "key_url": "http://keyserver.ubuntu.com/pks/lookup?op=get&fingerprint=on&search=0x1BB943DB"
   },
   {
+    "alias": "mongodb-3.0-precise",
+    "sourceline": "deb http://repo.mongodb.org/apt/ubuntu precise/mongodb-org/3.0 multiverse",
+    "key_url": "http://keyserver.ubuntu.com/pks/lookup?op=get&fingerprint=on&search=0x9ECBEC467F0CEB10"
+  },
+  {
+    "alias": "mongodb-3.2-precise",
+    "sourceline": "deb http://repo.mongodb.org/apt/ubuntu precise/mongodb-org/3.2 multiverse",
+    "key_url": "http://keyserver.ubuntu.com/pks/lookup?op=get&fingerprint=on&search=0x9ECBEC467F0CEB10"
+  },
+  {
+    "alias": "mongodb-3.2-trusty",
+    "sourceline": "deb [arch=amd64] http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.2 multiverse",
+    "key_url": "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x0C49F3730359A14518585931BC711F9BA15703C6"
+  },
+  {
+    "alias": "mongodb-3.4-precise",
+    "sourceline": "deb [arch=amd64] http://repo.mongodb.org/apt/ubuntu precise/mongodb-org/3.4 multiverse",
+    "key_url": "https://www.mongodb.org/static/pgp/server-3.4.asc"
+  },
+  {
+    "alias": "mongodb-3.4-trusty",
+    "sourceline": "deb [arch=amd64] http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.4 multiverse",
+    "key_url": "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x0C49F3730359A14518585931BC711F9BA15703C6"
+  },
+  {
     "alias": "mongodb-upstart",
     "sourceline": "deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen",
     "key_url": "http://keyserver.ubuntu.com/pks/lookup?op=get&fingerprint=on&search=0x9ECBEC467F0CEB10"
   },
   {
+    "alias": "mono",
+    "sourceline": "deb http://download.mono-project.com/repo/debian wheezy main",
+    "key_url": "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0xA6A19B38D3D831EF"
+  },
+  {
+    "alias": "mono-alpha",
+    "sourceline": "deb http://download.mono-project.com/repo/debian alpha main",
+    "key_url": "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0xA6A19B38D3D831EF"
+  },
+  {
+    "alias": "mono-beta",
+    "sourceline": "deb http://download.mono-project.com/repo/debian beta main",
+    "key_url": "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0xA6A19B38D3D831EF"
+  },
+  {
+    "alias": "mono-libtiff-compat",
+    "sourceline": "deb http://download.mono-project.com/repo/debian wheezy-libtiff-compat main",
+    "key_url": "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0xA6A19B38D3D831EF"
+  },
+  {
+    "alias": "mono-nightly",
+    "sourceline": "deb http://download.mono-project.com/repo/debian nightly main",
+    "key_url": "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0xA6A19B38D3D831EF"
+  },
+  {
     "alias": "mopidy-stable",
     "sourceline": "deb http://apt.mopidy.com/ stable main contrib non-free",
     "key_url": "https://apt.mopidy.com/mopidy.gpg"
+  },
+  {
+    "alias": "mysql-5.7-precise",
+    "sourceline": "deb http://repo.mysql.com/apt/ubuntu/ precise mysql-5.7",
+    "key_url": "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x8C718D3B5072E1F5"
+  },
+  {
+    "alias": "mysql-5.7-trusty",
+    "sourceline": "deb http://repo.mysql.com/apt/ubuntu/ trusty mysql-5.7",
+    "key_url": "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x8C718D3B5072E1F5"
   },
   {
     "alias": "partner-precise",
@@ -168,6 +368,21 @@
     "alias": "rabbitmq-testing",
     "sourceline": "deb http://www.rabbitmq.com/debian/ testing main",
     "key_url": "https://www.rabbitmq.com/rabbitmq-signing-key-public.asc"
+  },
+  {
+    "alias": "tmate",
+    "sourceline": "ppa:nviennot/tmate",
+    "key_url": null
+  },
+  {
+    "alias": "travis-ci/sqlite3",
+    "sourceline": "ppa:travis-ci/sqlite3",
+    "key_url": null
+  },
+  {
+    "alias": "trusty-media",
+    "sourceline": "ppa:mc3man/trusty-media",
+    "key_url": null
   },
   {
     "alias": "ubuntu-sdk-team",
