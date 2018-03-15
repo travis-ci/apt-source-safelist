@@ -393,5 +393,10 @@
     "alias": "ubuntu-toolchain-r-test",
     "sourceline": "ppa:ubuntu-toolchain-r/test",
     "key_url": null
+  },
+  {
+    "alias": "vala-team",
+    "sourceline": "ppa:vala-team/ppa",
+    "key_url": null
   }
 ]
