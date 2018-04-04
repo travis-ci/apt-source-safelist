@@ -50,6 +50,11 @@
     "key_url": null
   },
   {
+    "alias": "cassandra",
+    "sourceline": "deb \"http://www.apache.org/dist/cassandra/debian\" 39x main",
+    "key_url": "http://ha.pool.sks-keyservers.net/pks/lookup?search=0xA278B781FE4B2BDA&op=get"
+  },
+  {
     "alias": "cassou-emacs",
     "sourceline": "ppa:cassou/emacs",
     "key_url": null
@@ -75,9 +80,24 @@
     "key_url": "https://packages.chef.io/chef.asc"
   },
   {
+    "alias": "chris-lea-redis-server",
+    "sourceline": "ppa:chris-lea/redis-server",
+    "key_url": null
+  },
+  {
+    "alias": "computology-apt-backport-trusty",
+    "sourceline": "deb https://packagecloud.io/computology/apt-backport/ubuntu/ trusty main",
+    "key_url": "https://packagecloud.io/gpg.key"
+  },
+  {
     "alias": "couchbase-precise",
     "sourceline": "deb http://packages.couchbase.com/ubuntu precise precise/main",
     "key_url": "http://packages.couchbase.com/ubuntu/couchbase.key"
+  },
+  {
+    "alias": "couchdb",
+    "sourceline": "ppa:couchdb/stable",
+    "key_url": null
   },
   {
     "alias": "deadsnakes",
@@ -88,6 +108,11 @@
     "alias": "debian-sid",
     "sourceline": "deb http://ftp.us.debian.org/debian unstable main contrib non-free",
     "key_url": "https://ftp-master.debian.org/keys/archive-key-7.0.asc"
+  },
+  {
+    "alias": "docker-trusty",
+    "sourceline": "deb [arch=amd64] \"https://download.docker.com/linux/ubuntu\" trusty stable edge",
+    "key_url": "https://download.docker.com/linux/ubuntu/gpg"
   },
   {
     "alias": "elasticsearch-1.6",
@@ -155,6 +180,11 @@
     "key_url": null
   },
   {
+    "alias": "github-git-lfs-trusty",
+    "sourceline": "deb https://packagecloud.io/github/git-lfs/ubuntu trusty main",
+    "key_url": "https://packagecloud.io/gpg.key"
+  },
+  {
     "alias": "google-chrome",
     "sourceline": "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main",
     "key_url": "https://dl-ssl.google.com/linux/linux_signing_key.pub"
@@ -168,6 +198,11 @@
     "alias": "heroku",
     "sourceline": "deb http://cli-assets.heroku.com/branches/stable/apt ./",
     "key_url": "https://cli-assets.heroku.com/apt/release.key"
+  },
+  {
+    "alias": "heroku-toolbelt",
+    "sourceline": "deb \"http://toolbelt.heroku.com/ubuntu\" ./",
+    "key_url": "https://toolbelt.heroku.com/apt/release.key"
   },
   {
     "alias": "hvr-ghc",
@@ -320,6 +355,11 @@
     "key_url": "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x8C718D3B5072E1F5"
   },
   {
+    "alias": "openjdk-r-java",
+    "sourceline": "ppa:openjdk-r/ppa",
+    "key_url": null
+  },
+  {
     "alias": "partner-precise",
     "sourceline": "deb http://archive.canonical.com/ubuntu precise partner",
     "key_url": null
@@ -327,6 +367,21 @@
   {
     "alias": "pgavin-ghdl",
     "sourceline": "ppa:pgavin/ghdl",
+    "key_url": null
+  },
+  {
+    "alias": "pgdg-9.5-precise",
+    "sourceline": "deb http://apt.postgresql.org/pub/repos/apt/ precise-pgdg 9.5",
+    "key_url": "https://www.postgresql.org/media/keys/ACCC4CF8.asc"
+  },
+  {
+    "alias": "pgdg-trusty",
+    "sourceline": "deb \"http://apt.postgresql.org/pub/repos/apt/\" trusty-pgdg main",
+    "key_url": "https://www.postgresql.org/media/keys/ACCC4CF8.asc"
+  },
+  {
+    "alias": "pollinate",
+    "sourceline": "ppa:pollinate/ppa",
     "key_url": null
   },
   {
@@ -370,6 +425,11 @@
     "key_url": "https://www.rabbitmq.com/rabbitmq-signing-key-public.asc"
   },
   {
+    "alias": "rabbitmq-trusty",
+    "sourceline": "deb https://packagecloud.io/rabbitmq/rabbitmq-server/ubuntu trusty main",
+    "key_url": "https://packagecloud.io/gpg.key"
+  },
+  {
     "alias": "tmate",
     "sourceline": "ppa:nviennot/tmate",
     "key_url": null
@@ -392,6 +452,11 @@
   {
     "alias": "ubuntu-toolchain-r-test",
     "sourceline": "ppa:ubuntu-toolchain-r/test",
+    "key_url": null
+  },
+  {
+    "alias": "webupd8team-java",
+    "sourceline": "ppa:webupd8team/java",
     "key_url": null
   }
 ]
