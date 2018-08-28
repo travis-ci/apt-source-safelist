@@ -48,16 +48,8 @@
     "sourceline": "ppa:cassou/emacs"
   },
   {
-    "alias": "chef-current-precise",
-    "sourceline": "deb https://packages.chef.io/repos/apt/current precise main"
-  },
-  {
     "alias": "chef-current-trusty",
     "sourceline": "deb https://packages.chef.io/repos/apt/current trusty main"
-  },
-  {
-    "alias": "chef-stable-precise",
-    "sourceline": "deb https://packages.chef.io/repos/apt/stable precise main"
   },
   {
     "alias": "chef-stable-trusty",
@@ -70,10 +62,6 @@
   {
     "alias": "computology-apt-backport-trusty",
     "sourceline": "deb https://packagecloud.io/computology/apt-backport/ubuntu/ trusty main"
-  },
-  {
-    "alias": "couchbase-precise",
-    "sourceline": "deb http://packages.couchbase.com/ubuntu precise precise/main"
   },
   {
     "alias": "couchdb",
@@ -116,14 +104,6 @@
     "sourceline": "deb https://artifacts.elastic.co/packages/5.x/apt stable main"
   },
   {
-    "alias": "extras-precise",
-    "sourceline": "deb http://extras.ubuntu.com/ubuntu precise main"
-  },
-  {
-    "alias": "fpcomplete-precise",
-    "sourceline": "deb http://download.fpcomplete.com/ubuntu precise main"
-  },
-  {
     "alias": "fpcomplete-trusty",
     "sourceline": "deb http://download.fpcomplete.com/ubuntu trusty main"
   },
@@ -134,10 +114,6 @@
   {
     "alias": "gearman-developers",
     "sourceline": "ppa:gearman-developers/ppa"
-  },
-  {
-    "alias": "george-edison55-precise-backports",
-    "sourceline": "ppa:george-edison55/precise-backports"
   },
   {
     "alias": "git-core",
@@ -176,30 +152,6 @@
     "sourceline": "ppa:kubuntu-ppa/backports"
   },
   {
-    "alias": "llvm-toolchain-precise",
-    "sourceline": "deb http://apt.llvm.org/precise/ llvm-toolchain-precise main"
-  },
-  {
-    "alias": "llvm-toolchain-precise-3.5",
-    "sourceline": "deb http://apt.llvm.org/precise/ llvm-toolchain-precise-3.5 main"
-  },
-  {
-    "alias": "llvm-toolchain-precise-3.6",
-    "sourceline": "deb http://apt.llvm.org/precise/ llvm-toolchain-precise-3.6 main"
-  },
-  {
-    "alias": "llvm-toolchain-precise-3.7",
-    "sourceline": "deb http://apt.llvm.org/precise/ llvm-toolchain-precise-3.7 main"
-  },
-  {
-    "alias": "llvm-toolchain-precise-3.8",
-    "sourceline": "deb http://apt.llvm.org/precise/ llvm-toolchain-precise-3.8 main"
-  },
-  {
-    "alias": "llvm-toolchain-precise-3.9",
-    "sourceline": "deb http://apt.llvm.org/precise/ llvm-toolchain-precise-3.9 main"
-  },
-  {
     "alias": "llvm-toolchain-trusty",
     "sourceline": "deb http://apt.llvm.org/trusty/ llvm-toolchain-trusty main"
   },
@@ -220,28 +172,8 @@
     "sourceline": "deb http://apt.llvm.org/trusty/ llvm-toolchain-trusty-6.0 main"
   },
   {
-    "alias": "lucid",
-    "sourceline": "deb http://archive.ubuntu.com/ubuntu/ lucid main"
-  },
-  {
-    "alias": "mariadb-10.0",
-    "sourceline": "deb http://ftp.osuosl.org/pub/mariadb/repo/10.0/ubuntu precise main"
-  },
-  {
-    "alias": "mongodb-3.0-precise",
-    "sourceline": "deb http://repo.mongodb.org/apt/ubuntu precise/mongodb-org/3.0 multiverse"
-  },
-  {
-    "alias": "mongodb-3.2-precise",
-    "sourceline": "deb http://repo.mongodb.org/apt/ubuntu precise/mongodb-org/3.2 multiverse"
-  },
-  {
     "alias": "mongodb-3.2-trusty",
     "sourceline": "deb [arch=amd64] http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.2 multiverse"
-  },
-  {
-    "alias": "mongodb-3.4-precise",
-    "sourceline": "deb [arch=amd64] http://repo.mongodb.org/apt/ubuntu precise/mongodb-org/3.4 multiverse"
   },
   {
     "alias": "mongodb-3.4-trusty",
@@ -276,10 +208,6 @@
     "sourceline": "deb http://apt.mopidy.com/ stable main contrib non-free"
   },
   {
-    "alias": "mysql-5.7-precise",
-    "sourceline": "deb http://repo.mysql.com/apt/ubuntu/ precise mysql-5.7"
-  },
-  {
     "alias": "mysql-5.7-trusty",
     "sourceline": "deb http://repo.mysql.com/apt/ubuntu/ trusty mysql-5.7"
   },
@@ -288,16 +216,8 @@
     "sourceline": "ppa:openjdk-r/ppa"
   },
   {
-    "alias": "partner-precise",
-    "sourceline": "deb http://archive.canonical.com/ubuntu precise partner"
-  },
-  {
     "alias": "pgavin-ghdl",
     "sourceline": "ppa:pgavin/ghdl"
-  },
-  {
-    "alias": "pgdg-9.5-precise",
-    "sourceline": "deb http://apt.postgresql.org/pub/repos/apt/ precise-pgdg 9.5"
   },
   {
     "alias": "pgdg-trusty",
@@ -312,10 +232,6 @@
     "sourceline": "ppa:pov/wkhtmltopdf"
   },
   {
-    "alias": "precise-pgdg-9.5",
-    "sourceline": "deb http://apt.postgresql.org/pub/repos/apt/ precise-pgdg 9.5"
-  },
-  {
     "alias": "pypy",
     "sourceline": "ppa:pypy/ppa"
   },
@@ -324,16 +240,8 @@
     "sourceline": "ppa:pythonxy/pythonxy-devel"
   },
   {
-    "alias": "r-packages-precise",
-    "sourceline": "deb http://cran.rstudio.com/bin/linux/ubuntu precise/"
-  },
-  {
     "alias": "r-packages-trusty",
     "sourceline": "deb http://cran.rstudio.com/bin/linux/ubuntu trusty/"
-  },
-  {
-    "alias": "rabbitmq-precise",
-    "sourceline": "deb https://packagecloud.io/rabbitmq/rabbitmq-server/ubuntu/ precise main"
   },
   {
     "alias": "rabbitmq-testing",
