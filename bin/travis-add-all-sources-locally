@@ -1,0 +1,29 @@
+#! /usr/bin/env ruby
+
+require 'json'
+
+def main
+  top = `git rev-parse --show-toplevel`.strip
+  sources = JSON.parse(File.read(File.join(top, 'ubuntu.json')))
+
+  successes = sources.select do |src|
+    puts "-------------------\nAdding #{src.inspect}\n"
+    sourceline = src['sourceline'].untaint
+
+    key_imported = false
+    if !sourceline.start_with?('ppa:')
+      key_imported = system(
+        "sudo -E apt-key add -v #{top}/keys/#{src['alias'].untaint}.asc"
+      )
+    else
+      key_imported = true
+    end
+    key_imported && system(
+      "sudo -E apt-add-repository -y #{sourceline.untaint.inspect}"
+    )
+  end
+
+  sources.length == successes.length
+end
+
+exit main if $PROGRAM_NAME == __FILE__

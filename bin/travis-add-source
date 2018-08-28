@@ -2,46 +2,43 @@
 
 PROG = File.basename($PROGRAM_NAME)
 USAGE = <<-EOF
-Usage: #{PROG} <whitelist> <alias> <sourceline> [key-url] [-i|--inplace]
+Usage: #{PROG} <safelist> <alias> <sourceline> [-i|--inplace]
 EOF
 
 def main(argv)
-  whitelist_json, source_alias, sourceline, key_url, inplace = argv
-  if whitelist_json =~ /-h|--help|help/
+  safelist_json, source_alias, sourceline, inplace = argv
+  if safelist_json =~ /-h|--help|help/
     puts USAGE
     return 0
   end
 
-  abort USAGE if [whitelist_json, source_alias, sourceline].any?(&:nil?)
+  abort USAGE if [safelist_json, source_alias, sourceline].any?(&:nil?)
 
   require 'json'
 
-  whitelist = add_source(
-    whitelist_json.dup.to_s,
+  safelist = add_source(
+    safelist_json.dup.to_s,
     source_alias.dup.to_s,
-    sourceline.dup.to_s,
-    key_url.dup.to_s
+    sourceline.dup.to_s
   )
   out = $stdout
-  out = File.open(whitelist_json.dup.to_s, 'w') if inplace.to_s =~ /-i|--inplace/
-  out.puts JSON.pretty_generate(whitelist)
+  out = File.open(safelist_json.dup.to_s, 'w') if inplace.to_s =~ /-i|--inplace/
+  out.puts JSON.pretty_generate(safelist)
 
   0
 end
 
-def add_source(whitelist_json, source_alias, sourceline, key_url)
-  key_url.strip!
+def add_source(safelist_json, source_alias, sourceline)
   source_alias.strip!
 
-  whitelist = JSON.parse(File.read(whitelist_json))
-  whitelist << {
+  safelist = JSON.parse(File.read(safelist_json))
+  safelist << {
     'alias' => source_alias,
-    'sourceline' => sourceline.split.join(' '),
-    'key_url' => key_url.empty? ? nil : key_url
+    'sourceline' => sourceline.split.join(' ')
   }
 
-  whitelist.uniq! { |e| e['alias'] }
-  whitelist.sort_by! { |e| e['alias'] }
+  safelist.uniq! { |e| e['alias'] }
+  safelist.sort_by! { |e| e['alias'] }
 end
 
 exit(main(ARGV)) if __FILE__ == $PROGRAM_NAME
