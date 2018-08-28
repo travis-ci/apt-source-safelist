@@ -41,7 +41,8 @@
   },
   {
     "alias": "cassandra",
-    "sourceline": "deb \"http://www.apache.org/dist/cassandra/debian\" 39x main"
+    "sourceline": "deb \"http://www.apache.org/dist/cassandra/debian\" 39x main",
+    "key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/cassandra.asc"
   },
   {
     "alias": "cassou-emacs",
@@ -49,11 +50,13 @@
   },
   {
     "alias": "chef-current-trusty",
-    "sourceline": "deb https://packages.chef.io/repos/apt/current trusty main"
+    "sourceline": "deb https://packages.chef.io/repos/apt/current trusty main",
+    "key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/chef-current-trusty.asc"
   },
   {
     "alias": "chef-stable-trusty",
-    "sourceline": "deb https://packages.chef.io/repos/apt/stable trusty main"
+    "sourceline": "deb https://packages.chef.io/repos/apt/stable trusty main",
+    "key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/chef-stable-trusty.asc"
   },
   {
     "alias": "chris-lea-redis-server",
@@ -61,7 +64,8 @@
   },
   {
     "alias": "computology-apt-backport-trusty",
-    "sourceline": "deb https://packagecloud.io/computology/apt-backport/ubuntu/ trusty main"
+    "sourceline": "deb https://packagecloud.io/computology/apt-backport/ubuntu/ trusty main",
+    "key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/computology-apt-backport-trusty.asc"
   },
   {
     "alias": "couchdb",
@@ -73,39 +77,48 @@
   },
   {
     "alias": "debian-sid",
-    "sourceline": "deb http://ftp.us.debian.org/debian unstable main contrib non-free"
+    "sourceline": "deb http://ftp.us.debian.org/debian unstable main contrib non-free",
+    "key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/debian-sid.asc"
   },
   {
     "alias": "docker-trusty",
-    "sourceline": "deb [arch=amd64] \"https://download.docker.com/linux/ubuntu\" trusty stable edge"
+    "sourceline": "deb [arch=amd64] \"https://download.docker.com/linux/ubuntu\" trusty stable edge",
+    "key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/docker-trusty.asc"
   },
   {
     "alias": "elasticsearch-1.6",
-    "sourceline": "deb http://packages.elastic.co/elasticsearch/1.6/debian stable main"
+    "sourceline": "deb http://packages.elastic.co/elasticsearch/1.6/debian stable main",
+    "key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/elasticsearch-1.6.asc"
   },
   {
     "alias": "elasticsearch-1.7",
-    "sourceline": "deb http://packages.elastic.co/elasticsearch/1.7/debian stable main"
+    "sourceline": "deb http://packages.elastic.co/elasticsearch/1.7/debian stable main",
+    "key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/elasticsearch-1.7.asc"
   },
   {
     "alias": "elasticsearch-2.0",
-    "sourceline": "deb http://packages.elastic.co/elasticsearch/2.0/debian stable main"
+    "sourceline": "deb http://packages.elastic.co/elasticsearch/2.0/debian stable main",
+    "key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/elasticsearch-2.0.asc"
   },
   {
     "alias": "elasticsearch-2.1",
-    "sourceline": "deb http://packages.elastic.co/elasticsearch/2.1/debian stable main"
+    "sourceline": "deb http://packages.elastic.co/elasticsearch/2.1/debian stable main",
+    "key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/elasticsearch-2.1.asc"
   },
   {
     "alias": "elasticsearch-2.x",
-    "sourceline": "deb http://packages.elastic.co/elasticsearch/2.x/debian stable main"
+    "sourceline": "deb http://packages.elastic.co/elasticsearch/2.x/debian stable main",
+    "key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/elasticsearch-2.x.asc"
   },
   {
     "alias": "elasticsearch-5.x",
-    "sourceline": "deb https://artifacts.elastic.co/packages/5.x/apt stable main"
+    "sourceline": "deb https://artifacts.elastic.co/packages/5.x/apt stable main",
+    "key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/elasticsearch-5.x.asc"
   },
   {
     "alias": "fpcomplete-trusty",
-    "sourceline": "deb http://download.fpcomplete.com/ubuntu trusty main"
+    "sourceline": "deb http://download.fpcomplete.com/ubuntu trusty main",
+    "key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/fpcomplete-trusty.asc"
   },
   {
     "alias": "gammu",
@@ -121,23 +134,28 @@
   },
   {
     "alias": "github-git-lfs-trusty",
-    "sourceline": "deb https://packagecloud.io/github/git-lfs/ubuntu trusty main"
+    "sourceline": "deb https://packagecloud.io/github/git-lfs/ubuntu trusty main",
+    "key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/github-git-lfs-trusty.asc"
   },
   {
     "alias": "google-chrome",
-    "sourceline": "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main"
+    "sourceline": "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main",
+    "key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/google-chrome.asc"
   },
   {
     "alias": "google-cloud",
-    "sourceline": "deb http://packages.cloud.google.com/apt trusty main"
+    "sourceline": "deb http://packages.cloud.google.com/apt trusty main",
+    "key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/google-cloud.asc"
   },
   {
     "alias": "heroku",
-    "sourceline": "deb http://cli-assets.heroku.com/branches/stable/apt ./"
+    "sourceline": "deb http://cli-assets.heroku.com/branches/stable/apt ./",
+    "key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/heroku.asc"
   },
   {
     "alias": "heroku-toolbelt",
-    "sourceline": "deb \"http://toolbelt.heroku.com/ubuntu\" ./"
+    "sourceline": "deb \"http://toolbelt.heroku.com/ubuntu\" ./",
+    "key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/heroku-toolbelt.asc"
   },
   {
     "alias": "hvr-ghc",
@@ -153,63 +171,78 @@
   },
   {
     "alias": "llvm-toolchain-trusty",
-    "sourceline": "deb http://apt.llvm.org/trusty/ llvm-toolchain-trusty main"
+    "sourceline": "deb http://apt.llvm.org/trusty/ llvm-toolchain-trusty main",
+    "key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-toolchain-trusty.asc"
   },
   {
     "alias": "llvm-toolchain-trusty-3.9",
-    "sourceline": "deb http://apt.llvm.org/trusty/ llvm-toolchain-trusty-3.9 main"
+    "sourceline": "deb http://apt.llvm.org/trusty/ llvm-toolchain-trusty-3.9 main",
+    "key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-toolchain-trusty-3.9.asc"
   },
   {
     "alias": "llvm-toolchain-trusty-4.0",
-    "sourceline": "deb http://apt.llvm.org/trusty/ llvm-toolchain-trusty-4.0 main"
+    "sourceline": "deb http://apt.llvm.org/trusty/ llvm-toolchain-trusty-4.0 main",
+    "key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-toolchain-trusty-4.0.asc"
   },
   {
     "alias": "llvm-toolchain-trusty-5.0",
-    "sourceline": "deb http://apt.llvm.org/trusty/ llvm-toolchain-trusty-5.0 main"
+    "sourceline": "deb http://apt.llvm.org/trusty/ llvm-toolchain-trusty-5.0 main",
+    "key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-toolchain-trusty-5.0.asc"
   },
   {
     "alias": "llvm-toolchain-trusty-6.0",
-    "sourceline": "deb http://apt.llvm.org/trusty/ llvm-toolchain-trusty-6.0 main"
+    "sourceline": "deb http://apt.llvm.org/trusty/ llvm-toolchain-trusty-6.0 main",
+    "key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-toolchain-trusty-6.0.asc"
   },
   {
     "alias": "mongodb-3.2-trusty",
-    "sourceline": "deb [arch=amd64] http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.2 multiverse"
+    "sourceline": "deb [arch=amd64] http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.2 multiverse",
+    "key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/mongodb-3.2-trusty.asc"
   },
   {
     "alias": "mongodb-3.4-trusty",
-    "sourceline": "deb [arch=amd64] http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.4 multiverse"
+    "sourceline": "deb [arch=amd64] http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.4 multiverse",
+    "key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/mongodb-3.4-trusty.asc"
   },
   {
     "alias": "mongodb-upstart",
-    "sourceline": "deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen"
+    "sourceline": "deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen",
+    "key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/mongodb-upstart.asc"
   },
   {
     "alias": "mono",
-    "sourceline": "deb http://download.mono-project.com/repo/debian wheezy main"
+    "sourceline": "deb http://download.mono-project.com/repo/debian wheezy main",
+    "key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/mono.asc"
   },
   {
     "alias": "mono-alpha",
-    "sourceline": "deb http://download.mono-project.com/repo/debian alpha main"
+    "sourceline": "deb http://download.mono-project.com/repo/debian alpha main",
+    "key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/mono-alpha.asc"
   },
   {
     "alias": "mono-beta",
-    "sourceline": "deb http://download.mono-project.com/repo/debian beta main"
+    "sourceline": "deb http://download.mono-project.com/repo/debian beta main",
+    "key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/mono-beta.asc"
   },
   {
     "alias": "mono-libtiff-compat",
-    "sourceline": "deb http://download.mono-project.com/repo/debian wheezy-libtiff-compat main"
+    "sourceline": "deb http://download.mono-project.com/repo/debian wheezy-libtiff-compat main",
+    "key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/mono-libtiff-compat.asc"
   },
   {
     "alias": "mono-nightly",
-    "sourceline": "deb http://download.mono-project.com/repo/debian nightly main"
+    "sourceline": "deb http://download.mono-project.com/repo/debian nightly main",
+    "key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/mono-nightly.asc"
   },
   {
     "alias": "mopidy-stable",
-    "sourceline": "deb http://apt.mopidy.com/ stable main contrib non-free"
+    "sourceline": "deb http://apt.mopidy.com/ stable main contrib non-free",
+    "key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/mopidy-stable.asc"
   },
   {
     "alias": "mysql-5.7-trusty",
-    "sourceline": "deb http://repo.mysql.com/apt/ubuntu/ trusty mysql-5.7"
+    "sourceline": "deb http://repo.mysql.com/apt/ubuntu/ trusty mysql-5.7",
+    "key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/mysql-5.7-trusty.asc"
   },
   {
     "alias": "openjdk-r-java",
@@ -221,7 +254,8 @@
   },
   {
     "alias": "pgdg-trusty",
-    "sourceline": "deb \"http://apt.postgresql.org/pub/repos/apt/\" trusty-pgdg main"
+    "sourceline": "deb \"http://apt.postgresql.org/pub/repos/apt/\" trusty-pgdg main",
+    "key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/pgdg-trusty.asc"
   },
   {
     "alias": "pollinate",
@@ -241,15 +275,18 @@
   },
   {
     "alias": "r-packages-trusty",
-    "sourceline": "deb http://cran.rstudio.com/bin/linux/ubuntu trusty/"
+    "sourceline": "deb http://cran.rstudio.com/bin/linux/ubuntu trusty/",
+    "key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/r-packages-trusty.asc"
   },
   {
     "alias": "rabbitmq-testing",
-    "sourceline": "deb http://www.rabbitmq.com/debian/ testing main"
+    "sourceline": "deb http://www.rabbitmq.com/debian/ testing main",
+    "key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/rabbitmq-testing.asc"
   },
   {
     "alias": "rabbitmq-trusty",
-    "sourceline": "deb https://packagecloud.io/rabbitmq/rabbitmq-server/ubuntu trusty main"
+    "sourceline": "deb https://packagecloud.io/rabbitmq/rabbitmq-server/ubuntu trusty main",
+    "key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/rabbitmq-trusty.asc"
   },
   {
     "alias": "tmate",
