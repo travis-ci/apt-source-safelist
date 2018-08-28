@@ -1,0 +1,22 @@
+#! /usr/bin/env ruby
+
+require 'json'
+
+def main
+  top = `git rev-parse --show-toplevel`.strip
+  sources = JSON.parse(File.read(File.join(top, 'ubuntu.json')))
+
+  successes = sources.select do |src|
+    puts "-------------------\nAdding #{src.inspect}\n"
+    if src['key_url']
+      system("curl -sSL #{src['key_url'].untaint.inspect} | sudo -E apt-key add -") &&
+        system("sudo -E apt-add-repository -y #{src['sourceline'].untaint.inspect}")
+    else
+      system("sudo -E apt-add-repository -y #{src['sourceline'].untaint.inspect}")
+    end
+  end
+
+  sources.length == successes.length
+end
+
+exit main if $PROGRAM_NAME == __FILE__

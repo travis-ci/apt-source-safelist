@@ -2,11 +2,11 @@
 
 PROG = File.basename($PROGRAM_NAME)
 USAGE = <<-EOF
-Usage: #{PROG} <whitelist> <alias> <sourceline> [key-url] [-i|--inplace]
+Usage: #{PROG} <whitelist> <alias> <sourceline> [-i|--inplace]
 EOF
 
 def main(argv)
-  whitelist_json, source_alias, sourceline, key_url, inplace = argv
+  whitelist_json, source_alias, sourceline, inplace = argv
   if whitelist_json =~ /-h|--help|help/
     puts USAGE
     return 0
@@ -19,8 +19,7 @@ def main(argv)
   whitelist = add_source(
     whitelist_json.dup.to_s,
     source_alias.dup.to_s,
-    sourceline.dup.to_s,
-    key_url.dup.to_s
+    sourceline.dup.to_s
   )
   out = $stdout
   out = File.open(whitelist_json.dup.to_s, 'w') if inplace.to_s =~ /-i|--inplace/
@@ -29,15 +28,13 @@ def main(argv)
   0
 end
 
-def add_source(whitelist_json, source_alias, sourceline, key_url)
-  key_url.strip!
+def add_source(whitelist_json, source_alias, sourceline)
   source_alias.strip!
 
   whitelist = JSON.parse(File.read(whitelist_json))
   whitelist << {
     'alias' => source_alias,
-    'sourceline' => sourceline.split.join(' '),
-    'key_url' => key_url.empty? ? nil : key_url
+    'sourceline' => sourceline.split.join(' ')
   }
 
   whitelist.uniq! { |e| e['alias'] }
