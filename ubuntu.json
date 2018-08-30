@@ -50,10 +50,22 @@
     "sourceline": "ppa:cassou/emacs"
   },
   {
+    "alias": "chef-current-precise",
+    "sourceline": "deb https://packages.chef.io/repos/apt/current precise main",
+    "key_url": "https://%{app_host}/files/gpg/chef-current-precise.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/chef-current-precise.asc"
+  },
+  {
     "alias": "chef-current-trusty",
     "sourceline": "deb https://packages.chef.io/repos/apt/current trusty main",
     "key_url": "https://%{app_host}/files/gpg/chef-current-trusty.asc",
     "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/chef-current-trusty.asc"
+  },
+  {
+    "alias": "chef-stable-precise",
+    "sourceline": "deb https://packages.chef.io/repos/apt/stable precise main",
+    "key_url": "https://%{app_host}/files/gpg/chef-stable-precise.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/chef-stable-precise.asc"
   },
   {
     "alias": "chef-stable-trusty",
@@ -70,6 +82,12 @@
     "sourceline": "deb https://packagecloud.io/computology/apt-backport/ubuntu/ trusty main",
     "key_url": "https://%{app_host}/files/gpg/computology-apt-backport-trusty.asc",
     "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/computology-apt-backport-trusty.asc"
+  },
+  {
+    "alias": "couchbase-precise",
+    "sourceline": "deb http://packages.couchbase.com/ubuntu precise precise/main",
+    "key_url": "https://%{app_host}/files/gpg/couchbase-precise.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/couchbase-precise.asc"
   },
   {
     "alias": "couchdb",
@@ -128,6 +146,18 @@
     "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/elasticsearch-5.x.asc"
   },
   {
+    "alias": "extras-precise",
+    "sourceline": "deb http://extras.ubuntu.com/ubuntu precise main",
+    "key_url": "https://%{app_host}/files/gpg/extras-precise.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/extras-precise.asc"
+  },
+  {
+    "alias": "fpcomplete-precise",
+    "sourceline": "deb http://download.fpcomplete.com/ubuntu precise main",
+    "key_url": "https://%{app_host}/files/gpg/fpcomplete-precise.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/fpcomplete-precise.asc"
+  },
+  {
     "alias": "fpcomplete-trusty",
     "sourceline": "deb http://download.fpcomplete.com/ubuntu trusty main",
     "key_url": "https://%{app_host}/files/gpg/fpcomplete-trusty.asc",
@@ -140,6 +170,12 @@
   {
     "alias": "gearman-developers",
     "sourceline": "ppa:gearman-developers/ppa"
+  },
+  {
+    "alias": "george-edison55-precise-backports",
+    "sourceline": "ppa:george-edison55/precise-backports",
+    "key_url": "https://%{app_host}/files/gpg/george-edison55-precise-backports.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/george-edison55-precise-backports.asc"
   },
   {
     "alias": "git-core",
@@ -188,6 +224,42 @@
     "sourceline": "ppa:kubuntu-ppa/backports"
   },
   {
+    "alias": "llvm-toolchain-precise",
+    "sourceline": "deb http://apt.llvm.org/precise/ llvm-toolchain-precise main",
+    "key_url": "https://%{app_host}/files/gpg/llvm-toolchain-precise.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-toolchain-precise.asc"
+  },
+  {
+    "alias": "llvm-toolchain-precise-3.5",
+    "sourceline": "deb http://apt.llvm.org/precise/ llvm-toolchain-precise-3.5 main",
+    "key_url": "https://%{app_host}/files/gpg/llvm-toolchain-precise-3.5.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-toolchain-precise-3.5.asc"
+  },
+  {
+    "alias": "llvm-toolchain-precise-3.6",
+    "sourceline": "deb http://apt.llvm.org/precise/ llvm-toolchain-precise-3.6 main",
+    "key_url": "https://%{app_host}/files/gpg/llvm-toolchain-precise-3.6.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-toolchain-precise-3.6.asc"
+  },
+  {
+    "alias": "llvm-toolchain-precise-3.7",
+    "sourceline": "deb http://apt.llvm.org/precise/ llvm-toolchain-precise-3.7 main",
+    "key_url": "https://%{app_host}/files/gpg/llvm-toolchain-precise-3.7.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-toolchain-precise-3.7.asc"
+  },
+  {
+    "alias": "llvm-toolchain-precise-3.8",
+    "sourceline": "deb http://apt.llvm.org/precise/ llvm-toolchain-precise-3.8 main",
+    "key_url": "https://%{app_host}/files/gpg/llvm-toolchain-precise-3.8.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-toolchain-precise-3.8.asc"
+  },
+  {
+    "alias": "llvm-toolchain-precise-3.9",
+    "sourceline": "deb http://apt.llvm.org/precise/ llvm-toolchain-precise-3.9 main",
+    "key_url": "https://%{app_host}/files/gpg/llvm-toolchain-precise-3.9.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-toolchain-precise-3.9.asc"
+  },
+  {
     "alias": "llvm-toolchain-trusty",
     "sourceline": "deb http://apt.llvm.org/trusty/ llvm-toolchain-trusty main",
     "key_url": "https://%{app_host}/files/gpg/llvm-toolchain-trusty.asc",
@@ -218,10 +290,40 @@
     "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-toolchain-trusty-6.0.asc"
   },
   {
+    "alias": "lucid",
+    "sourceline": "deb http://archive.ubuntu.com/ubuntu/ lucid main",
+    "key_url": "https://%{app_host}/files/gpg/lucid.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/lucid.asc"
+  },
+  {
+    "alias": "mariadb-10.0",
+    "sourceline": "deb http://ftp.osuosl.org/pub/mariadb/repo/10.0/ubuntu precise main",
+    "key_url": "https://%{app_host}/files/gpg/mariadb-10.0.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/mariadb-10.0.asc"
+  },
+  {
+    "alias": "mongodb-3.0-precise",
+    "sourceline": "deb http://repo.mongodb.org/apt/ubuntu precise/mongodb-org/3.0 multiverse",
+    "key_url": "https://%{app_host}/files/gpg/mongodb-3.0-precise.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/mongodb-3.0-precise.asc"
+  },
+  {
+    "alias": "mongodb-3.2-precise",
+    "sourceline": "deb http://repo.mongodb.org/apt/ubuntu precise/mongodb-org/3.2 multiverse",
+    "key_url": "https://%{app_host}/files/gpg/mongodb-3.2-precise.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/mongodb-3.2-precise.asc"
+  },
+  {
     "alias": "mongodb-3.2-trusty",
     "sourceline": "deb [arch=amd64] http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.2 multiverse",
     "key_url": "https://%{app_host}/files/gpg/mongodb-3.2-trusty.asc",
     "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/mongodb-3.2-trusty.asc"
+  },
+  {
+    "alias": "mongodb-3.4-precise",
+    "sourceline": "deb [arch=amd64] http://repo.mongodb.org/apt/ubuntu precise/mongodb-org/3.4 multiverse",
+    "key_url": "https://%{app_host}/files/gpg/mongodb-3.4-precise.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/mongodb-3.4-precise.asc"
   },
   {
     "alias": "mongodb-3.4-trusty",
@@ -272,6 +374,12 @@
     "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/mopidy-stable.asc"
   },
   {
+    "alias": "mysql-5.7-precise",
+    "sourceline": "deb http://repo.mysql.com/apt/ubuntu/ precise mysql-5.7",
+    "key_url": "https://%{app_host}/files/gpg/mysql-5.7-precise.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/mysql-5.7-precise.asc"
+  },
+  {
     "alias": "mysql-5.7-trusty",
     "sourceline": "deb http://repo.mysql.com/apt/ubuntu/ trusty mysql-5.7",
     "key_url": "https://%{app_host}/files/gpg/mysql-5.7-trusty.asc",
@@ -282,8 +390,20 @@
     "sourceline": "ppa:openjdk-r/ppa"
   },
   {
+    "alias": "partner-precise",
+    "sourceline": "deb http://archive.canonical.com/ubuntu precise partner",
+    "key_url": "https://%{app_host}/files/gpg/partner-precise.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/partner-precise.asc"
+  },
+  {
     "alias": "pgavin-ghdl",
     "sourceline": "ppa:pgavin/ghdl"
+  },
+  {
+    "alias": "pgdg-9.5-precise",
+    "sourceline": "deb http://apt.postgresql.org/pub/repos/apt/ precise-pgdg 9.5",
+    "key_url": "https://%{app_host}/files/gpg/pgdg-9.5-precise.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/pgdg-9.5-precise.asc"
   },
   {
     "alias": "pgdg-trusty",
@@ -300,6 +420,12 @@
     "sourceline": "ppa:pov/wkhtmltopdf"
   },
   {
+    "alias": "precise-pgdg-9.5",
+    "sourceline": "deb http://apt.postgresql.org/pub/repos/apt/ precise-pgdg 9.5",
+    "key_url": "https://%{app_host}/files/gpg/precise-pgdg-9.5.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/precise-pgdg-9.5.asc"
+  },
+  {
     "alias": "pypy",
     "sourceline": "ppa:pypy/ppa"
   },
@@ -308,10 +434,22 @@
     "sourceline": "ppa:pythonxy/pythonxy-devel"
   },
   {
+    "alias": "r-packages-precise",
+    "sourceline": "deb http://cran.rstudio.com/bin/linux/ubuntu precise/",
+    "key_url": "https://%{app_host}/files/gpg/r-packages-precise.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/r-packages-precise.asc"
+  },
+  {
     "alias": "r-packages-trusty",
     "sourceline": "deb http://cran.rstudio.com/bin/linux/ubuntu trusty/",
     "key_url": "https://%{app_host}/files/gpg/r-packages-trusty.asc",
     "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/r-packages-trusty.asc"
+  },
+  {
+    "alias": "rabbitmq-precise",
+    "sourceline": "deb https://packagecloud.io/rabbitmq/rabbitmq-server/ubuntu/ precise main",
+    "key_url": "https://%{app_host}/files/gpg/rabbitmq-precise.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/rabbitmq-precise.asc"
   },
   {
     "alias": "rabbitmq-testing",
