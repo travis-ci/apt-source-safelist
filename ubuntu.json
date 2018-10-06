@@ -486,6 +486,11 @@
     "sourceline": "ppa:nviennot/tmate"
   },
   {
+    "alias": "tobydox-mingw-x-precise",
+    "sourceline": "ppa:tobydox/mingw-x-precise",
+    "key_url": null
+  },
+  {
     "alias": "travis-ci/sqlite3",
     "sourceline": "ppa:travis-ci/sqlite3"
   },
