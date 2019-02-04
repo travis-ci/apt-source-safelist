@@ -7,23 +7,28 @@ def main
   sources = JSON.parse(File.read(File.join(top, 'ubuntu.json')))
 
   successes = sources.select do |src|
-    puts "-------------------\nAdding #{src.inspect}\n"
+    puts "-------------------\nAdding #{src['alias']}\n"
     sourceline = src['sourceline'].untaint
 
     key_imported = false
     if !sourceline.start_with?('ppa:')
+      keyfile = "#{top}/keys/#{src['alias'].untaint}.asc"
       key_imported = system(
-        "sudo -E apt-key add -v #{top}/keys/#{src['alias'].untaint}.asc"
+        "#{sudo} apt-key add - <#{keyfile}"
       )
     else
       key_imported = true
     end
     key_imported && system(
-      "sudo -E apt-add-repository -y #{sourceline.untaint.inspect}"
+      "#{sudo} apt-add-repository -y #{sourceline.untaint.inspect}"
     )
   end
 
   sources.length == successes.length
+end
+
+def sudo
+  "sudo -E" if Process.uid != 0
 end
 
 exit main if $PROGRAM_NAME == __FILE__

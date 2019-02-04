@@ -36,20 +36,35 @@ class Key
   end
 end
 
-class ExpirationDate
+class ExpirationChecker
   def initialize(amount=0, unit='day')
     ENV['TZ'] = 'UTC'
-    future = Date.today
-    method = %W[ next #{unit} ].join('_').to_s
-    if future.respond_to?(method)
+    date = Date.today
+    method = "next_#{unit}".to_s
+    if date.respond_to?(method)
       amount.times do
-        future = future.send(method)
+        date = date.send(method)
       end
     else
-      puts "Do not understand #{unit}. Exiting."
+      STDERR.puts "Do not understand #{unit}. Exiting."
       exit 1
     end
-    @expiration = future.strftime('%Y%m%dT%H%M%S')
+    @expiration = date.strftime('%Y%m%dT%H%M%S')
+  end
+
+  def command
+    %W[
+      apt-key adv
+      --list-public-keys
+      --with-fingerprint
+      --with-colons
+      --faked-system-time
+      #{@expiration}
+    ].join(' ')
+  end
+
+  def run_command
+    command
   end
 
   def to_s
@@ -62,7 +77,7 @@ def halp(error=1)
   if error == 0
     stream = STDOUT
   end
-  stream.write <<~HALP
+  stream.puts <<~HALP
   halp!1!!
   HALP
   exit error
@@ -79,8 +94,8 @@ def parse_arg(*args)
     elsif %w[ day month year ].include?(arg)
       unit = arg
     else
-      puts "Do not understand arg #{arg}"
-      halp 2
+      puts "Do not understand argument #{arg}"
+      halp
     end
   end
   return amount, unit
@@ -89,16 +104,8 @@ end
 if __FILE__ == $0
   amount, unit = parse_arg
 
-  command = %W[
-    apt-key adv
-    --list-public-keys 
-    --with-fingerprint
-    --with-colons 
-  ]
-
-  e = ExpirationDate.new(amount, unit)
-  command << '--faked-system-time' << e
-  keyset = `#{command.join(' ')}`
+  cutoff_date = ExpirationChecker.new(amount, unit)
+  keyset = `#{cutoff_date.run_command}`
   error = nil
   error_count = 0
 
@@ -106,13 +113,13 @@ if __FILE__ == $0
     next unless r.start_with?('pub:')
     key = Key.new(r)
     if key.expired?
-      STDERR.write "Expired! #{key}\n"
+      STDERR.puts "Expired! #{key}"
       error_count += 1
       error = 1
     end
   end
   if error
-    STDERR.write "There were #{error_count} expirations with #{amount} #{unit}\n"
+    STDERR.puts "There were #{error_count} expirations with #{amount} #{unit}"
     exit error
   end
 end
