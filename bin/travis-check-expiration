@@ -32,13 +32,20 @@ class Key
   end
 
   def to_s
+    # XXX is this necessary?
     "#{fingerprint}: #{name}"
   end
 end
 
 class ExpirationChecker
+  attr_reader :amount, :unit
+
   def initialize(amount=0, unit='day')
-    ENV['TZ'] = 'UTC'
+    @amount = amount
+    @unit = unit
+  end
+
+  def expiration
     date = Date.today
     method = "next_#{unit}".to_s
     if date.respond_to?(method)
@@ -46,10 +53,10 @@ class ExpirationChecker
         date = date.send(method)
       end
     else
-      STDERR.puts "Do not understand #{unit}. Exiting."
-      exit 1
+      warn "Do not understand #{unit}. Exiting."
+      return 1
     end
-    @expiration = date.strftime('%Y%m%dT%H%M%S')
+    date.strftime('%Y%m%dT%H%M%S')
   end
 
   def command
@@ -59,16 +66,26 @@ class ExpirationChecker
       --with-fingerprint
       --with-colons
       --faked-system-time
-      #{@expiration}
+      #{expiration}
     ].join(' ')
   end
 
-  def run_command
-    command
+  def command_output
+    @command_output ||= `#{command}`
   end
 
-  def to_s
-    @expiration
+  def parse_output
+    error_count = 0
+
+    command_output.split(/\n(?=pub:)/).each do |r|
+      next unless r.start_with?('pub:')
+      key = Key.new(r)
+      if key.expired?
+        warn "Expired! #{key}"
+        error_count += 1
+      end
+    end
+    error_count
   end
 end
 
@@ -94,32 +111,29 @@ def parse_arg(*args)
     elsif %w[ day month year ].include?(arg)
       unit = arg
     else
-      puts "Do not understand argument #{arg}"
+      warn "Do not understand argument #{arg}"
       halp
     end
   end
   return amount, unit
 end
 
-if __FILE__ == $0
+def warn(str)
+  STDERR.puts str
+end
+
+def main
+  ENV['TZ'] = 'UTC'
   amount, unit = parse_arg
 
-  cutoff_date = ExpirationChecker.new(amount, unit)
-  keyset = `#{cutoff_date.run_command}`
-  error = nil
-  error_count = 0
+  expiration = ExpirationChecker.new(amount, unit)
+  error_count = expiration.parse_output
+  if error_count != 0
+    warn "There were #{error_count} expirations with #{amount} #{unit}"
+  end
+  error_count > 0 ? 1 : 0
+end
 
-  keyset.split(/\n(?=pub:)/).each do |r|
-    next unless r.start_with?('pub:')
-    key = Key.new(r)
-    if key.expired?
-      STDERR.puts "Expired! #{key}"
-      error_count += 1
-      error = 1
-    end
-  end
-  if error
-    STDERR.puts "There were #{error_count} expirations with #{amount} #{unit}"
-    exit error
-  end
+if __FILE__ == $0
+  exit main
 end
