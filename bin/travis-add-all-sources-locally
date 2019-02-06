@@ -3,28 +3,64 @@
 require 'json'
 
 def main
-  top = `git rev-parse --show-toplevel`.strip
+  dry = false
+  ARGV.each do |arg|
+    puts arg
+  end
+  puts ARGV[0]
+  if ARGV[0] =~ /dry(-?run)?/
+    dry = true
+  end
+  dist = `lsb_release -cs`.strip
   sources = JSON.parse(File.read(File.join(top, 'ubuntu.json')))
+  puts sources.length
 
+  sources.select! do |src|
+    !src.has_key?('dist') or src['dist'].include?(dist)
+  end
   successes = sources.select do |src|
     puts "-------------------\nAdding #{src['alias']}\n"
-    sourceline = src['sourceline'].untaint
-
-    key_imported = false
-    if !sourceline.start_with?('ppa:')
-      keyfile = "#{top}/keys/#{src['alias'].untaint}.asc"
-      key_imported = system(
-        "#{sudo} apt-key add - <#{keyfile}"
-      )
-    else
-      key_imported = true
-    end
-    key_imported && system(
-      "#{sudo} apt-add-repository -y #{sourceline.untaint.inspect}"
-    )
+    key_imported = add_key(src, dry)
+    key_imported && add_source(src, dry)
   end
 
+  puts "sources.length = #{sources.length}; successes.length = #{successes.length}"
   sources.length == successes.length
+end
+
+def top
+  @top ||= `git rev-parse --show-toplevel`.strip
+end
+
+def add_key(src, dry)
+  sourceline = src['sourceline'].untaint
+  return true if sourceline.start_with?('ppa:')
+ 
+  keyfile = "#{top}/keys/#{src['alias'].untaint}.asc"
+  success = false
+  if dry
+    puts "Would have imported #{keyfile}"
+    success = true
+  else 
+    cmd = "#{sudo} apt-key add - <#{keyfile}"
+    puts "Executing #{cmd}"
+    success = system(cmd)
+  end
+  success
+end
+
+def add_source(src, dry)
+  success = false
+  url = src['sourceline']
+  cmd = "#{sudo} apt-add-repository -y #{url}"
+  if dry
+    puts "Would have executed #{cmd}"
+    success = true
+  else
+    puts "Executing: #{cmd}"
+    success = system(cmd)
+  end
+  success
 end
 
 def sudo
