@@ -32,7 +32,6 @@ class Key
   end
 
   def to_s
-    # XXX is this necessary?
     "#{fingerprint}: #{name}"
   end
 end
@@ -43,6 +42,7 @@ class ExpirationChecker
   def initialize(amount=0, unit='day')
     @amount = amount
     @unit = unit
+    @expired_keys = []
   end
 
   def expiration
@@ -70,49 +70,60 @@ class ExpirationChecker
     ].join(' ')
   end
 
-  def command_output
+  def run_command
     @command_output ||= `#{command}`
   end
 
-  def parse_output
+  def verify
     error_count = 0
 
-    command_output.split(/\n(?=pub:)/).each do |r|
+    run_command.split(/\n(?=pub:)/).each do |r|
       next unless r.start_with?('pub:')
       key = Key.new(r)
       if key.expired?
-        warn "Expired! #{key}"
+        add_expired_key(key)
         error_count += 1
       end
     end
     error_count
   end
+
+  def add_expired_key(key)
+    @expired_keys << key
+  end
+
+  def report
+    @expired_keys
+  end
 end
 
-def halp(error=1)
-  stream = STDERR
-  if error == 0
-    stream = STDOUT
-  end
-  stream.puts <<~HALP
-  halp!1!!
+def halp(error=0)
+  help = <<~HALP
+  #{File.basename($PROGRAM_NAME)} [-h] [amount] [day|month|year]
+  Parses apt-key output with a fake time (defaulting to today), and
+  reports which keys have expired at the specified time.
   HALP
+  say = :puts
+  if error != 0
+    say = :warn
+  end
+  say help
   exit error
 end
 
-def parse_arg(*args)
+def parse_arg
   amount = 0
   unit = 'day'
   ARGV.each do |arg|
     if %w[ -h --help -help help ].include?(arg)
-      halp 0
+      halp
     elsif arg =~ /\A[0-9]+\z/
       amount = arg.to_i
     elsif %w[ day month year ].include?(arg)
       unit = arg
     else
       warn "Do not understand argument #{arg}"
-      halp
+      halp 2
     end
   end
   return amount, unit
@@ -122,18 +133,23 @@ def warn(str)
   STDERR.puts str
 end
 
+def say(str)
+  STDOUT.puts str
+end
+
 def main
   ENV['TZ'] = 'UTC'
   amount, unit = parse_arg
 
   expiration = ExpirationChecker.new(amount, unit)
-  error_count = expiration.parse_output
+  error_count = expiration.verify
   if error_count != 0
-    warn "There were #{error_count} expirations with #{amount} #{unit}"
+    warn "There will be #{error_count} expirations in #{amount} #{unit}."
+    puts expiration.report
   end
   error_count > 0 ? 1 : 0
 end
 
-if __FILE__ == $0
+if __FILE__ == $PROGRAM_NAME
   exit main
 end
