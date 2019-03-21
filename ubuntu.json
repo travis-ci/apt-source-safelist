@@ -62,6 +62,12 @@
     "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/chef-current-trusty.asc"
   },
   {
+    "alias": "chef-current-xenial",
+    "sourceline": "deb https://packages.chef.io/repos/apt/current xenial main",
+    "key_url": "https://%{app_host}/files/gpg/chef-current-xenial.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/chef-current-xenial.asc"
+  },
+  {
     "alias": "chef-stable-precise",
     "sourceline": "deb https://packages.chef.io/repos/apt/stable precise main",
     "key_url": "https://%{app_host}/files/gpg/chef-stable-precise.asc",
@@ -72,6 +78,12 @@
     "sourceline": "deb https://packages.chef.io/repos/apt/stable trusty main",
     "key_url": "https://%{app_host}/files/gpg/chef-stable-trusty.asc",
     "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/chef-stable-trusty.asc"
+  },
+  {
+    "alias": "chef-stable-xenial",
+    "sourceline": "deb https://packages.chef.io/repos/apt/stable xenial main",
+    "key_url": "https://%{app_host}/files/gpg/chef-stable-xenial.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/chef-stable-xenial.asc"
   },
   {
     "alias": "chris-lea-redis-server",
