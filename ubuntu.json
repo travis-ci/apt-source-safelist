@@ -464,6 +464,10 @@
     "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/mysql-5.7-trusty.asc"
   },
   {
+    "alias": "nginx-mainline",
+    "sourceline": "ppa:nginx/mainline"
+  },
+  {
     "alias": "nginx-stable",
     "sourceline": "ppa:nginx/stable"
   },
