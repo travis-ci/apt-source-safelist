@@ -344,6 +344,12 @@
     "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-toolchain-trusty-8.asc"
   },
   {
+    "alias": "llvm-toolchain-xenial",
+    "sourceline": "deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial main",
+    "key_url": "https://%{app_host}/files/gpg/llvm-toolchain-xenial.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-toolchain-xenial.asc"
+  },
+  {
     "alias": "llvm-toolchain-xenial-6.0",
     "sourceline": "deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial-6.0 main",
     "key_url": "https://%{app_host}/files/gpg/llvm-toolchain-xenial-6.0.asc",
