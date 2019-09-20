@@ -266,100 +266,196 @@
     "sourceline": "ppa:kubuntu-ppa/backports"
   },
   {
+    "alias": "llvm-toolchain-bionic",
+    "sourceline": "deb http://apt.llvm.org/bionic/ llvm-toolchain-bionic main",
+    "key_url": "https://%{app_host}/files/gpg/llvm-snapshot.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-snapshot.asc"
+  },
+  {
+    "alias": "llvm-toolchain-bionic-8",
+    "sourceline": "deb http://apt.llvm.org/bionic/ llvm-toolchain-bionic-8 main",
+    "key_url": "https://%{app_host}/files/gpg/llvm-snapshot.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-snapshot.asc"
+  },
+  {
+    "alias": "llvm-toolchain-bionic-9",
+    "sourceline": "deb http://apt.llvm.org/bionic/ llvm-toolchain-bionic-9 main",
+    "key_url": "https://%{app_host}/files/gpg/llvm-snapshot.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-snapshot.asc"
+  },
+  {
     "alias": "llvm-toolchain-precise",
     "sourceline": "deb http://apt.llvm.org/precise/ llvm-toolchain-precise main",
-    "key_url": "https://%{app_host}/files/gpg/llvm-toolchain-precise.asc",
-    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-toolchain-precise.asc"
+    "key_url": "https://%{app_host}/files/gpg/llvm-snapshot.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-snapshot.asc"
+  },
+  {
+    "alias": "llvm-toolchain-precise-3.4",
+    "sourceline": "deb http://apt.llvm.org/precise/ llvm-toolchain-precise-3.4 main",
+    "key_url": "https://%{app_host}/files/gpg/llvm-snapshot.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-snapshot.asc"
   },
   {
     "alias": "llvm-toolchain-precise-3.5",
     "sourceline": "deb http://apt.llvm.org/precise/ llvm-toolchain-precise-3.5 main",
-    "key_url": "https://%{app_host}/files/gpg/llvm-toolchain-precise-3.5.asc",
-    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-toolchain-precise-3.5.asc"
+    "key_url": "https://%{app_host}/files/gpg/llvm-snapshot.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-snapshot.asc"
   },
   {
     "alias": "llvm-toolchain-precise-3.6",
     "sourceline": "deb http://apt.llvm.org/precise/ llvm-toolchain-precise-3.6 main",
-    "key_url": "https://%{app_host}/files/gpg/llvm-toolchain-precise-3.6.asc",
-    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-toolchain-precise-3.6.asc"
+    "key_url": "https://%{app_host}/files/gpg/llvm-snapshot.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-snapshot.asc"
   },
   {
     "alias": "llvm-toolchain-precise-3.7",
     "sourceline": "deb http://apt.llvm.org/precise/ llvm-toolchain-precise-3.7 main",
-    "key_url": "https://%{app_host}/files/gpg/llvm-toolchain-precise-3.7.asc",
-    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-toolchain-precise-3.7.asc"
+    "key_url": "https://%{app_host}/files/gpg/llvm-snapshot.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-snapshot.asc"
   },
   {
     "alias": "llvm-toolchain-precise-3.8",
     "sourceline": "deb http://apt.llvm.org/precise/ llvm-toolchain-precise-3.8 main",
-    "key_url": "https://%{app_host}/files/gpg/llvm-toolchain-precise-3.8.asc",
-    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-toolchain-precise-3.8.asc"
+    "key_url": "https://%{app_host}/files/gpg/llvm-snapshot.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-snapshot.asc"
   },
   {
     "alias": "llvm-toolchain-precise-3.9",
     "sourceline": "deb http://apt.llvm.org/precise/ llvm-toolchain-precise-3.9 main",
-    "key_url": "https://%{app_host}/files/gpg/llvm-toolchain-precise-3.9.asc",
-    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-toolchain-precise-3.9.asc"
+    "key_url": "https://%{app_host}/files/gpg/llvm-snapshot.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-snapshot.asc"
+  },
+  {
+    "alias": "llvm-toolchain-precise-4.0",
+    "sourceline": "deb http://apt.llvm.org/precise/ llvm-toolchain-precise-4.0 main",
+    "key_url": "https://%{app_host}/files/gpg/llvm-snapshot.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-snapshot.asc"
   },
   {
     "alias": "llvm-toolchain-trusty",
     "sourceline": "deb http://apt.llvm.org/trusty/ llvm-toolchain-trusty main",
-    "key_url": "https://%{app_host}/files/gpg/llvm-toolchain-trusty.asc",
-    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-toolchain-trusty.asc"
+    "key_url": "https://%{app_host}/files/gpg/llvm-snapshot.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-snapshot.asc"
+  },
+  {
+    "alias": "llvm-toolchain-trusty-3.4",
+    "sourceline": "deb http://apt.llvm.org/trusty/ llvm-toolchain-trusty-3.4 main",
+    "key_url": "https://%{app_host}/files/gpg/llvm-snapshot.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-snapshot.asc"
+  },
+  {
+    "alias": "llvm-toolchain-trusty-3.5",
+    "sourceline": "deb http://apt.llvm.org/trusty/ llvm-toolchain-trusty-3.5 main",
+    "key_url": "https://%{app_host}/files/gpg/llvm-snapshot.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-snapshot.asc"
+  },
+  {
+    "alias": "llvm-toolchain-trusty-3.6",
+    "sourceline": "deb http://apt.llvm.org/trusty/ llvm-toolchain-trusty-3.6 main",
+    "key_url": "https://%{app_host}/files/gpg/llvm-snapshot.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-snapshot.asc"
+  },
+  {
+    "alias": "llvm-toolchain-trusty-3.7",
+    "sourceline": "deb http://apt.llvm.org/trusty/ llvm-toolchain-trusty-3.7 main",
+    "key_url": "https://%{app_host}/files/gpg/llvm-snapshot.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-snapshot.asc"
+  },
+  {
+    "alias": "llvm-toolchain-trusty-3.8",
+    "sourceline": "deb http://apt.llvm.org/trusty/ llvm-toolchain-trusty-3.8 main",
+    "key_url": "https://%{app_host}/files/gpg/llvm-snapshot.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-snapshot.asc"
   },
   {
     "alias": "llvm-toolchain-trusty-3.9",
     "sourceline": "deb http://apt.llvm.org/trusty/ llvm-toolchain-trusty-3.9 main",
-    "key_url": "https://%{app_host}/files/gpg/llvm-toolchain-trusty-3.9.asc",
-    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-toolchain-trusty-3.9.asc"
+    "key_url": "https://%{app_host}/files/gpg/llvm-snapshot.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-snapshot.asc"
   },
   {
     "alias": "llvm-toolchain-trusty-4.0",
     "sourceline": "deb http://apt.llvm.org/trusty/ llvm-toolchain-trusty-4.0 main",
-    "key_url": "https://%{app_host}/files/gpg/llvm-toolchain-trusty-4.0.asc",
-    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-toolchain-trusty-4.0.asc"
+    "key_url": "https://%{app_host}/files/gpg/llvm-snapshot.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-snapshot.asc"
   },
   {
     "alias": "llvm-toolchain-trusty-5.0",
     "sourceline": "deb http://apt.llvm.org/trusty/ llvm-toolchain-trusty-5.0 main",
-    "key_url": "https://%{app_host}/files/gpg/llvm-toolchain-trusty-5.0.asc",
-    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-toolchain-trusty-5.0.asc"
+    "key_url": "https://%{app_host}/files/gpg/llvm-snapshot.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-snapshot.asc"
   },
   {
     "alias": "llvm-toolchain-trusty-6.0",
     "sourceline": "deb http://apt.llvm.org/trusty/ llvm-toolchain-trusty-6.0 main",
-    "key_url": "https://%{app_host}/files/gpg/llvm-toolchain-trusty-6.0.asc",
-    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-toolchain-trusty-6.0.asc"
+    "key_url": "https://%{app_host}/files/gpg/llvm-snapshot.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-snapshot.asc"
   },
   {
     "alias": "llvm-toolchain-trusty-7",
     "sourceline": "deb http://apt.llvm.org/trusty/ llvm-toolchain-trusty-7 main",
-    "key_url": "https://%{app_host}/files/gpg/llvm-toolchain-trusty-7.asc",
-    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-toolchain-trusty-7.asc"
+    "key_url": "https://%{app_host}/files/gpg/llvm-snapshot.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-snapshot.asc"
   },
   {
     "alias": "llvm-toolchain-trusty-8",
     "sourceline": "deb http://apt.llvm.org/trusty/ llvm-toolchain-trusty-8 main",
-    "key_url": "https://%{app_host}/files/gpg/llvm-toolchain-trusty-8.asc",
-    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-toolchain-trusty-8.asc"
+    "key_url": "https://%{app_host}/files/gpg/llvm-snapshot.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-snapshot.asc"
+  },
+  {
+    "alias": "llvm-toolchain-xenial",
+    "sourceline": "deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial main",
+    "key_url": "https://%{app_host}/files/gpg/llvm-snapshot.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-snapshot.asc"
+  },
+  {
+    "alias": "llvm-toolchain-xenial-3.8",
+    "sourceline": "deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial-3.8 main",
+    "key_url": "https://%{app_host}/files/gpg/llvm-snapshot.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-snapshot.asc"
+  },
+  {
+    "alias": "llvm-toolchain-xenial-3.9",
+    "sourceline": "deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial-3.9 main",
+    "key_url": "https://%{app_host}/files/gpg/llvm-snapshot.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-snapshot.asc"
+  },
+  {
+    "alias": "llvm-toolchain-xenial-4.0",
+    "sourceline": "deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial-4.0 main",
+    "key_url": "https://%{app_host}/files/gpg/llvm-snapshot.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-snapshot.asc"
+  },
+  {
+    "alias": "llvm-toolchain-xenial-5.0",
+    "sourceline": "deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial-5.0 main",
+    "key_url": "https://%{app_host}/files/gpg/llvm-snapshot.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-snapshot.asc"
   },
   {
     "alias": "llvm-toolchain-xenial-6.0",
     "sourceline": "deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial-6.0 main",
-    "key_url": "https://%{app_host}/files/gpg/llvm-toolchain-xenial-6.0.asc",
-    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-toolchain-xenial-6.0.asc"
+    "key_url": "https://%{app_host}/files/gpg/llvm-snapshot.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-snapshot.asc"
   },
   {
     "alias": "llvm-toolchain-xenial-7",
     "sourceline": "deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial-7 main",
-    "key_url": "https://%{app_host}/files/gpg/llvm-toolchain-xenial-7.asc",
-    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-toolchain-xenial-7.asc"
+    "key_url": "https://%{app_host}/files/gpg/llvm-snapshot.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-snapshot.asc"
   },
   {
     "alias": "llvm-toolchain-xenial-8",
     "sourceline": "deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial-8 main",
-    "key_url": "https://%{app_host}/files/gpg/llvm-toolchain-xenial-8.asc",
-    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-toolchain-xenial-8.asc"
+    "key_url": "https://%{app_host}/files/gpg/llvm-snapshot.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-snapshot.asc"
+  },
+  {
+    "alias": "llvm-toolchain-xenial-9",
+    "sourceline": "deb http://apt.llvm.org/bionic/ llvm-toolchain-xenial-9 main",
+    "key_url": "https://%{app_host}/files/gpg/llvm-snapshot.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-snapshot.asc"
   },
   {
     "alias": "lucid",
