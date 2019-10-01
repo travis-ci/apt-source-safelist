@@ -266,6 +266,42 @@
     "sourceline": "ppa:kubuntu-ppa/backports"
   },
   {
+    "alias": "llvm-toolchain-bionic",
+    "sourceline": "deb http://apt.llvm.org/bionic/ llvm-toolchain-bionic main",
+    "key_url": "https://%{app_host}/files/gpg/llvm-toolchain-bionic.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-toolchain-bionic.asc"
+  },
+  {
+    "alias": "llvm-toolchain-bionic-5.0",
+    "sourceline": "deb http://apt.llvm.org/bionic/ llvm-toolchain-bionic-5.0 main",
+    "key_url": "https://%{app_host}/files/gpg/llvm-toolchain-bionic-5.0.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-toolchain-bionic-5.0.asc"
+  },
+  {
+    "alias": "llvm-toolchain-bionic-6.0",
+    "sourceline": "deb http://apt.llvm.org/bionic/ llvm-toolchain-bionic-6.0 main",
+    "key_url": "https://%{app_host}/files/gpg/llvm-toolchain-bionic-6.0.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-toolchain-bionic-6.0.asc"
+  },
+  {
+    "alias": "llvm-toolchain-bionic-7",
+    "sourceline": "deb http://apt.llvm.org/bionic/ llvm-toolchain-bionic-7 main",
+    "key_url": "https://%{app_host}/files/gpg/llvm-toolchain-bionic-7.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-toolchain-bionic-7.asc"
+  },
+  {
+    "alias": "llvm-toolchain-bionic-8",
+    "sourceline": "deb http://apt.llvm.org/bionic/ llvm-toolchain-bionic-8 main",
+    "key_url": "https://%{app_host}/files/gpg/llvm-toolchain-bionic-8.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-toolchain-bionic-8.asc"
+  },
+  {
+    "alias": "llvm-toolchain-bionic-9",
+    "sourceline": "deb http://apt.llvm.org/bionic/ llvm-toolchain-bionic-9 main",
+    "key_url": "https://%{app_host}/files/gpg/llvm-toolchain-bionic-9.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-toolchain-bionic-9.asc"
+  },
+  {
     "alias": "llvm-toolchain-precise",
     "sourceline": "deb http://apt.llvm.org/precise/ llvm-toolchain-precise main",
     "key_url": "https://%{app_host}/files/gpg/llvm-toolchain-precise.asc",
@@ -344,6 +380,12 @@
     "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-toolchain-trusty-8.asc"
   },
   {
+    "alias": "llvm-toolchain-xenial",
+    "sourceline": "deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial main",
+    "key_url": "https://%{app_host}/files/gpg/llvm-toolchain-xenial.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-toolchain-xenial.asc"
+  },
+  {
     "alias": "llvm-toolchain-xenial-6.0",
     "sourceline": "deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial-6.0 main",
     "key_url": "https://%{app_host}/files/gpg/llvm-toolchain-xenial-6.0.asc",
@@ -360,6 +402,12 @@
     "sourceline": "deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial-8 main",
     "key_url": "https://%{app_host}/files/gpg/llvm-toolchain-xenial-8.asc",
     "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-toolchain-xenial-8.asc"
+  },
+  {
+    "alias": "llvm-toolchain-xenial-9",
+    "sourceline": "deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial-9 main",
+    "key_url": "https://%{app_host}/files/gpg/llvm-toolchain-xenial-9.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-toolchain-xenial-9.asc"
   },
   {
     "alias": "lucid",
