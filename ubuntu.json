@@ -50,6 +50,12 @@
     "sourceline": "ppa:cassou/emacs"
   },
   {
+    "alias": "chef-current-bionic",
+    "sourceline": "deb https://packages.chef.io/repos/apt/current bionic main",
+    "key_url": "https://%{app_host}/files/gpg/chef-current-bionic.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/chef-current-bionic.asc"
+  },
+  {
     "alias": "chef-current-precise",
     "sourceline": "deb https://packages.chef.io/repos/apt/current precise main",
     "key_url": "https://%{app_host}/files/gpg/chef-current-precise.asc",
@@ -66,6 +72,12 @@
     "sourceline": "deb https://packages.chef.io/repos/apt/current xenial main",
     "key_url": "https://%{app_host}/files/gpg/chef-current-xenial.asc",
     "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/chef-current-xenial.asc"
+  },
+  {
+    "alias": "chef-stable-bionic",
+    "sourceline": "deb https://packages.chef.io/repos/apt/stable bionic main",
+    "key_url": "https://%{app_host}/files/gpg/chef-stable-bionic.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/chef-stable-bionic.asc"
   },
   {
     "alias": "chef-stable-precise",
