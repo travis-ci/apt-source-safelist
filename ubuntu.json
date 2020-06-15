@@ -566,6 +566,11 @@
     "sourceline": "ppa:nviennot/tmate"
   },
   {
+    "alias": "trusty-backports",
+    "sourceline": "deb http://archive.ubuntu.com/ubuntu trusty-backports main restricted universe multiverse",
+    "key_url": null
+  },
+  {
     "alias": "trusty-media",
     "sourceline": "ppa:mc3man/trusty-media"
   },
