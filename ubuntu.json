@@ -270,6 +270,10 @@
     "sourceline": "ppa:hvr/ghc"
   },
   {
+    "alias": "hvr-ghcjs",
+    "sourceline": "ppa:hvr/ghcjs"
+  },  
+  {
     "alias": "kalakris-cmake",
     "sourceline": "ppa:kalakris/cmake"
   },
