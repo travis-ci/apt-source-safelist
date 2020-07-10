@@ -532,6 +532,21 @@
     "sourceline": "ppa:pythonxy/pythonxy-devel"
   },
   {
+    "alias": "qt5.10.1",
+    "sourceline": "ppa:beineri/opt-qt-5.10.1-trusty",
+    "key_url": null
+  },
+  {
+    "alias": "qt5.6.3",
+    "sourceline": "ppa:beineri/opt-qt563-trusty",
+    "key_url": null
+  },
+  {
+    "alias": "qt5.9.4",
+    "sourceline": "ppa:beineri/opt-qt594-trusty",
+    "key_url": null
+  },
+  {
     "alias": "r-packages-precise",
     "sourceline": "deb http://cran.rstudio.com/bin/linux/ubuntu precise/",
     "key_url": "https://%{app_host}/files/gpg/r-packages-precise.asc",
