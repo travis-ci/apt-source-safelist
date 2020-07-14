@@ -182,6 +182,11 @@
     "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/extras-precise.asc"
   },
   {
+    "alias": "fcl",
+    "sourceline": "ppa:fcl-debs/ppa",
+    "key_url": null
+  },
+  {
     "alias": "fpcomplete-precise",
     "sourceline": "deb http://download.fpcomplete.com/ubuntu precise main",
     "key_url": "https://%{app_host}/files/gpg/fpcomplete-precise.asc",
