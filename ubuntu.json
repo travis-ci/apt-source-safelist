@@ -224,6 +224,11 @@
     "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/github-git-lfs-xenial.asc"
   },
   {
+    "alias": "glide",
+    "sourceline": "ppa:masterminds/glide",
+    "key_url": "http://keyserver.ubuntu.com:11371/pks/lookup?op=get&search=0xDC9C7A41890C81B2"
+  },
+  {
     "alias": "google-chrome",
     "sourceline": "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main",
     "key_url": "https://%{app_host}/files/gpg/google-chrome.asc",
