@@ -562,6 +562,16 @@
     "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/rabbitmq-trusty.asc"
   },
   {
+    "alias": "rethinkdb-precise",
+    "sourceline": "deb http://download.rethinkdb.com/apt precise main",
+    "key_url": "http://download.rethinkdb.com/apt/pubkey.gpg"
+  },
+  {
+    "alias": "rethinkdb-trusty",
+    "sourceline": "deb http://download.rethinkdb.com/apt trusty main",
+    "key_url": "http://download.rethinkdb.com/apt/pubkey.gpg"
+  },
+  {
     "alias": "tmate",
     "sourceline": "ppa:nviennot/tmate"
   },
