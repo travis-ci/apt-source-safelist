@@ -570,6 +570,11 @@
     "sourceline": "ppa:mc3man/trusty-media"
   },
   {
+    "alias": "ubuntu-elisp",
+    "sourceline": "ppa:ubuntu-elisp/ppa",
+    "key_url": null
+  },
+  {
     "alias": "ubuntu-sdk-team",
     "sourceline": "ppa:ubuntu-sdk-team/ppa"
   },
