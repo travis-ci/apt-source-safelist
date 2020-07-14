@@ -208,6 +208,11 @@
     "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/george-edison55-precise-backports.asc"
   },
   {
+    "alias": "george-edison55-trusty-cmake",
+    "sourceline": "ppa:george-edison55/cmake-3.x",
+    "key_url": null
+  },
+  {
     "alias": "git-core",
     "sourceline": "ppa:git-core/ppa"
   },
