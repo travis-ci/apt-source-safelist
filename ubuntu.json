@@ -528,6 +528,11 @@
     "sourceline": "ppa:pypy/ppa"
   },
   {
+    "alias": "python-pil",
+    "sourceline": "ppa:chris-lea/python-pil",
+    "key_url": null
+  },
+  {
     "alias": "pythonxy-devel",
     "sourceline": "ppa:pythonxy/pythonxy-devel"
   },
