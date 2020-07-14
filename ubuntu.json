@@ -118,6 +118,11 @@
     "sourceline": "ppa:couchdb/stable"
   },
   {
+    "alias": "cuda-precise",
+    "sourceline": "deb http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1204/x86_64 /",
+    "key_url": "http://developer.download.nvidia.com/compute/cuda/repos/GPGKEY"
+  },
+  {
     "alias": "deadsnakes",
     "sourceline": "ppa:deadsnakes/ppa"
   },
