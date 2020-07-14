@@ -422,6 +422,16 @@
     "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/mongodb-4.0-xenial.asc"
   },
   {
+    "alias": "mongodb-3.6-precise",
+    "sourceline": "deb [arch=amd64] http://repo.mongodb.org/apt/ubuntu precise/mongodb-org/3.6 multiverse",
+    "key_url": "https://www.mongodb.org/static/pgp/server-3.6.asc"
+  },
+  {
+    "alias": "mongodb-3.6-trusty",
+    "sourceline": "deb [arch=amd64] http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.6 multiverse",
+    "key_url": "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x0C49F3730359A14518585931BC711F9BA15703C6"
+  },
+  {
     "alias": "mongodb-upstart",
     "sourceline": "deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen",
     "key_url": "https://%{app_host}/files/gpg/mongodb-upstart.asc",
