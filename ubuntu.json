@@ -278,6 +278,11 @@
     "sourceline": "ppa:kubuntu-ppa/backports"
   },
   {
+    "alias": "laurent-boulard/devtools",
+    "sourceline": "ppa:laurent-boulard/devtools",
+    "key_url": null
+  },
+  {
     "alias": "llvm-toolchain-precise",
     "sourceline": "deb http://apt.llvm.org/precise/ llvm-toolchain-precise main",
     "key_url": "https://%{app_host}/files/gpg/llvm-toolchain-precise.asc",
