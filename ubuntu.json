@@ -176,6 +176,11 @@
     "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/elasticsearch-5.x.asc"
   },
   {
+    "alias": "elasticsearch-6.x",
+    "sourceline": "deb https://artifacts.elastic.co/packages/6.x/apt stable main",
+    "key_url": "https://packages.elastic.co/GPG-KEY-elasticsearch"
+  },
+  {
     "alias": "extras-precise",
     "sourceline": "deb http://extras.ubuntu.com/ubuntu precise main",
     "key_url": "https://%{app_host}/files/gpg/extras-precise.asc",
