@@ -532,6 +532,11 @@
     "sourceline": "ppa:pythonxy/pythonxy-devel"
   },
   {
+    "alias": "qemu",
+    "sourceline": "ppa:pietro-monteiro/qemu-backport",
+    "key_url": "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0xE9D59F420158B0F3D019A24116A3F5E061950B67"
+  },
+  {
     "alias": "r-packages-precise",
     "sourceline": "deb http://cran.rstudio.com/bin/linux/ubuntu precise/",
     "key_url": "https://%{app_host}/files/gpg/r-packages-precise.asc",
