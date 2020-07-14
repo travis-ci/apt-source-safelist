@@ -118,6 +118,11 @@
     "sourceline": "ppa:couchdb/stable"
   },
   {
+    "alias": "dartsim",
+    "sourceline": "ppa:dartsim/ppa",
+    "key_url": null
+  },
+  {
     "alias": "deadsnakes",
     "sourceline": "ppa:deadsnakes/ppa"
   },
