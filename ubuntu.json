@@ -488,6 +488,11 @@
     "sourceline": "ppa:openjdk-r/ppa"
   },
   {
+    "alias": "oracle-java",
+    "sourceline": "ppa:webupd8team/java",
+    "key_url": null
+  },
+  {
     "alias": "partner-precise",
     "sourceline": "deb http://archive.canonical.com/ubuntu precise partner",
     "key_url": "https://%{app_host}/files/gpg/partner-precise.asc",
