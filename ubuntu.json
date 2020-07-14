@@ -266,6 +266,11 @@
     "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/heroku-toolbelt.asc"
   },
   {
+    "alias": "gijzelaar-opencv2.4",
+    "sourceline": "ppa:gijzelaar/opencv2.4",
+    "key_url": null
+  },
+  {
     "alias": "hvr-ghc",
     "sourceline": "ppa:hvr/ghc"
   },
