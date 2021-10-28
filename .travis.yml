@@ -1,6 +1,6 @@
 language: ruby
 install: skip
-script:
+script: 1
 - bin/travis-add-source -h
 - bin/travis-add-all-sources-locally
 - diff -u ubuntu.json <(jq 'sort_by(.alias)' < ubuntu.json)
