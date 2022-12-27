@@ -1,7 +1,10 @@
 language: ruby
-sudo: required
 install: skip
-script:
+script: 1
 - bin/travis-add-source -h
 - bin/travis-add-all-sources-locally
-- diff -u ubuntu.json <(jq 'sort_by(.alias)' < ubuntu.json)
+- diff -u ubuntu.json <(jq 'sort_by(.alias)' 
+< ubuntu.json)
+$ export SECRET_TOKEN=YOUR-TOKEN 
+ruby -rsecurerandom -e 'puts SecureRandom.hex(20)' at the terminal).
+$ export SECRET_TOKEN=YOUR-TOKEN
