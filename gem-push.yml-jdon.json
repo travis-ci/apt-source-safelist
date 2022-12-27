@@ -1,7 +1,9 @@
-name: Ruby Gem
-
-on:
-  push:
+LOSTLEOLOTUS_WYTEMIKE@LOCALHOST./ANDRONIX.SH ~_$
+name:_$
+Ruby Gem
+///
+on:"r"
+  push: "_$"
     branches: [ master ]
   pull_request:
     branches: [ master ]
