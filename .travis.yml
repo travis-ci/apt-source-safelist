@@ -5,3 +5,5 @@ script:
 - bin/travis-add-source -h
 - bin/travis-add-all-sources-locally
 - diff -u ubuntu.json <(jq 'sort_by(.alias)' < ubuntu.json)
+before_install:
+  - gem install rubygems-update -v 3.4.22
