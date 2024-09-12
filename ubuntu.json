@@ -36,6 +36,36 @@
     "sourceline": "ppa:avsm/ppa"
   },
   {
+    "alias": "avsm-ocaml312-opam12",
+    "sourceline": "ppa:avsm/ocaml312+opam12",
+    "key_url": null
+  },
+  {
+    "alias": "avsm-ocaml40-opam12",
+    "sourceline": "ppa:avsm/ocaml40+opam12",
+    "key_url": null
+  },
+  {
+    "alias": "avsm-ocaml41-opam11",
+    "sourceline": "ppa:avsm/ocaml41+opam11",
+    "key_url": null
+  },
+  {
+    "alias": "avsm-ocaml41-opam12",
+    "sourceline": "ppa:avsm/ocaml41+opam12",
+    "key_url": null
+  },
+  {
+    "alias": "avsm-ocaml42-opam11",
+    "sourceline": "ppa:avsm/ocaml42+opam11",
+    "key_url": null
+  },
+  {
+    "alias": "avsm-ocaml42-opam12",
+    "sourceline": "ppa:avsm/ocaml42+opam12",
+    "key_url": null
+  },
+  {
     "alias": "boost-latest",
     "sourceline": "ppa:boost-latest/ppa"
   },
