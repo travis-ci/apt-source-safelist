@@ -1,5 +1,4 @@
 language: ruby
-sudo: required
 install: skip
 script:
 - bin/travis-add-source -h
