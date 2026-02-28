@@ -1,10 +1,7 @@
 language: ruby
-
-sudo: 9000
-
-install: echo 'no installation necessary'
-
+sudo: required
+install: skip
 script:
 - bin/travis-add-source -h
-- ./add_all.rb
+- bin/travis-add-all-sources-locally
 - diff -u ubuntu.json <(jq 'sort_by(.alias)' < ubuntu.json)

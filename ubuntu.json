@@ -1,187 +1,580 @@
 [
   {
     "alias": "augeas",
-    "sourceline": "ppa:raphink/augeas",
-    "key_url": null
+    "sourceline": "ppa:raphink/augeas"
+  },
+  {
+    "alias": "augeas-0.10.0",
+    "sourceline": "ppa:raphink/augeas-0.10.0"
+  },
+  {
+    "alias": "augeas-1.0.0",
+    "sourceline": "ppa:raphink/augeas-1.0.0"
+  },
+  {
+    "alias": "augeas-1.1.0",
+    "sourceline": "ppa:raphink/augeas-1.1.0"
+  },
+  {
+    "alias": "augeas-1.2.0",
+    "sourceline": "ppa:raphink/augeas-1.2.0"
+  },
+  {
+    "alias": "augeas-1.3.0",
+    "sourceline": "ppa:raphink/augeas-1.3.0"
+  },
+  {
+    "alias": "augeas-dev",
+    "sourceline": "ppa:raphink/augeas-dev"
+  },
+  {
+    "alias": "augeas-old",
+    "sourceline": "ppa:raphink/augeas-old"
   },
   {
     "alias": "avsm",
-    "sourceline": "ppa:avsm/ppa",
-    "key_url": null
+    "sourceline": "ppa:avsm/ppa"
   },
   {
     "alias": "boost-latest",
-    "sourceline": "ppa:boost-latest/ppa",
-    "key_url": null
+    "sourceline": "ppa:boost-latest/ppa"
+  },
+  {
+    "alias": "cassandra",
+    "sourceline": "deb \"http://www.apache.org/dist/cassandra/debian\" 39x main",
+    "key_url": "https://%{app_host}/files/gpg/cassandra.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/cassandra.asc"
   },
   {
     "alias": "cassou-emacs",
-    "sourceline": "ppa:cassou/emacs",
-    "key_url": null
+    "sourceline": "ppa:cassou/emacs"
+  },
+  {
+    "alias": "chef-current-bionic",
+    "sourceline": "deb https://packages.chef.io/repos/apt/current bionic main",
+    "key_url": "https://%{app_host}/files/gpg/chef-current-bionic.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/chef-current-bionic.asc"
   },
   {
     "alias": "chef-current-precise",
-    "sourceline": "deb https://packagecloud.io/chef/current/ubuntu/ precise main",
-    "key_url": "https://packagecloud.io/gpg.key"
+    "sourceline": "deb https://packages.chef.io/repos/apt/current precise main",
+    "key_url": "https://%{app_host}/files/gpg/chef-current-precise.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/chef-current-precise.asc"
+  },
+  {
+    "alias": "chef-current-trusty",
+    "sourceline": "deb https://packages.chef.io/repos/apt/current trusty main",
+    "key_url": "https://%{app_host}/files/gpg/chef-current-trusty.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/chef-current-trusty.asc"
+  },
+  {
+    "alias": "chef-current-xenial",
+    "sourceline": "deb https://packages.chef.io/repos/apt/current xenial main",
+    "key_url": "https://%{app_host}/files/gpg/chef-current-xenial.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/chef-current-xenial.asc"
+  },
+  {
+    "alias": "chef-stable-bionic",
+    "sourceline": "deb https://packages.chef.io/repos/apt/stable bionic main",
+    "key_url": "https://%{app_host}/files/gpg/chef-stable-bionic.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/chef-stable-bionic.asc"
   },
   {
     "alias": "chef-stable-precise",
-    "sourceline": "deb https://packagecloud.io/chef/stable/ubuntu/ precise main",
-    "key_url": "https://packagecloud.io/gpg.key"
+    "sourceline": "deb https://packages.chef.io/repos/apt/stable precise main",
+    "key_url": "https://%{app_host}/files/gpg/chef-stable-precise.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/chef-stable-precise.asc"
+  },
+  {
+    "alias": "chef-stable-trusty",
+    "sourceline": "deb https://packages.chef.io/repos/apt/stable trusty main",
+    "key_url": "https://%{app_host}/files/gpg/chef-stable-trusty.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/chef-stable-trusty.asc"
+  },
+  {
+    "alias": "chef-stable-xenial",
+    "sourceline": "deb https://packages.chef.io/repos/apt/stable xenial main",
+    "key_url": "https://%{app_host}/files/gpg/chef-stable-xenial.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/chef-stable-xenial.asc"
+  },
+  {
+    "alias": "chris-lea-redis-server",
+    "sourceline": "ppa:chris-lea/redis-server"
+  },
+  {
+    "alias": "computology-apt-backport-trusty",
+    "sourceline": "deb https://packagecloud.io/computology/apt-backport/ubuntu/ trusty main",
+    "key_url": "https://%{app_host}/files/gpg/computology-apt-backport-trusty.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/computology-apt-backport-trusty.asc"
   },
   {
     "alias": "couchbase-precise",
     "sourceline": "deb http://packages.couchbase.com/ubuntu precise precise/main",
-    "key_url": "http://packages.couchbase.com/ubuntu/couchbase.key"
+    "key_url": "https://%{app_host}/files/gpg/couchbase-precise.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/couchbase-precise.asc"
   },
   {
     "alias": "deadsnakes",
-    "sourceline": "ppa:fkrull/deadsnakes",
-    "key_url": null
+    "sourceline": "ppa:deadsnakes/ppa"
   },
   {
     "alias": "debian-sid",
     "sourceline": "deb http://ftp.us.debian.org/debian unstable main contrib non-free",
-    "key_url": "https://ftp-master.debian.org/keys/archive-key-7.0.asc"
+    "key_url": "https://%{app_host}/files/gpg/debian-sid.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/debian-sid.asc"
+  },
+  {
+    "alias": "docker-trusty",
+    "sourceline": "deb [arch=amd64] \"https://download.docker.com/linux/ubuntu\" trusty stable edge",
+    "key_url": "https://%{app_host}/files/gpg/docker-trusty.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/docker-trusty.asc"
+  },
+  {
+    "alias": "docker-xenial",
+    "sourceline": "deb [arch=amd64] \"https://download.docker.com/linux/ubuntu\" xenial stable edge",
+    "key_url": "https://%{app_host}/files/gpg/docker-xenial.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/docker-xenial.asc"
+  },
+  {
+    "alias": "elasticsearch-1.6",
+    "sourceline": "deb http://packages.elastic.co/elasticsearch/1.6/debian stable main",
+    "key_url": "https://%{app_host}/files/gpg/elasticsearch-1.6.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/elasticsearch-1.6.asc"
+  },
+  {
+    "alias": "elasticsearch-1.7",
+    "sourceline": "deb http://packages.elastic.co/elasticsearch/1.7/debian stable main",
+    "key_url": "https://%{app_host}/files/gpg/elasticsearch-1.7.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/elasticsearch-1.7.asc"
+  },
+  {
+    "alias": "elasticsearch-2.0",
+    "sourceline": "deb http://packages.elastic.co/elasticsearch/2.0/debian stable main",
+    "key_url": "https://%{app_host}/files/gpg/elasticsearch-2.0.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/elasticsearch-2.0.asc"
+  },
+  {
+    "alias": "elasticsearch-2.1",
+    "sourceline": "deb http://packages.elastic.co/elasticsearch/2.1/debian stable main",
+    "key_url": "https://%{app_host}/files/gpg/elasticsearch-2.1.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/elasticsearch-2.1.asc"
+  },
+  {
+    "alias": "elasticsearch-2.x",
+    "sourceline": "deb http://packages.elastic.co/elasticsearch/2.x/debian stable main",
+    "key_url": "https://%{app_host}/files/gpg/elasticsearch-2.x.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/elasticsearch-2.x.asc"
+  },
+  {
+    "alias": "elasticsearch-5.x",
+    "sourceline": "deb https://artifacts.elastic.co/packages/5.x/apt stable main",
+    "key_url": "https://%{app_host}/files/gpg/elasticsearch-5.x.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/elasticsearch-5.x.asc"
   },
   {
     "alias": "extras-precise",
     "sourceline": "deb http://extras.ubuntu.com/ubuntu precise main",
-    "key_url": "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x16126D3A3E5C1192"
+    "key_url": "https://%{app_host}/files/gpg/extras-precise.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/extras-precise.asc"
+  },
+  {
+    "alias": "fpcomplete-precise",
+    "sourceline": "deb http://download.fpcomplete.com/ubuntu precise main",
+    "key_url": "https://%{app_host}/files/gpg/fpcomplete-precise.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/fpcomplete-precise.asc"
+  },
+  {
+    "alias": "fpcomplete-trusty",
+    "sourceline": "deb http://download.fpcomplete.com/ubuntu trusty main",
+    "key_url": "https://%{app_host}/files/gpg/fpcomplete-trusty.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/fpcomplete-trusty.asc"
   },
   {
     "alias": "gammu",
-    "sourceline": "ppa:nijel/ppa",
-    "key_url": null
+    "sourceline": "ppa:nijel/ppa"
   },
   {
     "alias": "gearman-developers",
-    "sourceline": "ppa:gearman-developers/ppa",
-    "key_url": null
+    "sourceline": "ppa:gearman-developers/ppa"
   },
   {
     "alias": "george-edison55-precise-backports",
     "sourceline": "ppa:george-edison55/precise-backports",
-    "key_url": null
+    "key_url": "https://%{app_host}/files/gpg/george-edison55-precise-backports.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/george-edison55-precise-backports.asc"
+  },
+  {
+    "alias": "git-core",
+    "sourceline": "ppa:git-core/ppa"
+  },
+  {
+    "alias": "github-git-lfs-trusty",
+    "sourceline": "deb https://packagecloud.io/github/git-lfs/ubuntu trusty main",
+    "key_url": "https://%{app_host}/files/gpg/github-git-lfs-trusty.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/github-git-lfs-trusty.asc"
+  },
+  {
+    "alias": "github-git-lfs-xenial",
+    "sourceline": "deb https://packagecloud.io/github/git-lfs/ubuntu xenial main",
+    "key_url": "https://%{app_host}/files/gpg/github-git-lfs-xenial.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/github-git-lfs-xenial.asc"
+  },
+  {
+    "alias": "google-chrome",
+    "sourceline": "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main",
+    "key_url": "https://%{app_host}/files/gpg/google-chrome.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/google-chrome.asc"
+  },
+  {
+    "alias": "google-cloud",
+    "sourceline": "deb http://packages.cloud.google.com/apt trusty main",
+    "key_url": "https://%{app_host}/files/gpg/google-cloud.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/google-cloud.asc"
+  },
+  {
+    "alias": "google-cloud-precise",
+    "sourceline": "deb http://packages.cloud.google.com/apt cloud-sdk-precise main",
+    "key_url": "https://%{app_host}/files/gpg/google-cloud-precise.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/google-cloud-precise.asc"
+  },
+  {
+    "alias": "google-cloud-trusty",
+    "sourceline": "deb http://packages.cloud.google.com/apt cloud-sdk-trusty main",
+    "key_url": "https://%{app_host}/files/gpg/google-cloud-trusty.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/google-cloud-trusty.asc"
+  },
+  {
+    "alias": "google-cloud-xenial",
+    "sourceline": "deb http://packages.cloud.google.com/apt cloud-sdk-xenial main",
+    "key_url": "https://%{app_host}/files/gpg/google-cloud-xenial.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/google-cloud-xenial.asc"
   },
   {
     "alias": "heroku",
-    "sourceline": "deb http://toolbelt.heroku.com/ubuntu ./",
-    "key_url": "https://toolbelt.heroku.com/apt/release.key"
+    "sourceline": "deb http://cli-assets.heroku.com/branches/stable/apt ./",
+    "key_url": "https://%{app_host}/files/gpg/heroku.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/heroku.asc"
+  },
+  {
+    "alias": "heroku-toolbelt",
+    "sourceline": "deb \"http://toolbelt.heroku.com/ubuntu\" ./",
+    "key_url": "https://%{app_host}/files/gpg/heroku-toolbelt.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/heroku-toolbelt.asc"
   },
   {
     "alias": "hvr-ghc",
-    "sourceline": "ppa:hvr/ghc",
-    "key_url": null
+    "sourceline": "ppa:hvr/ghc"
   },
   {
     "alias": "kalakris-cmake",
-    "sourceline": "ppa:kalakris/cmake",
-    "key_url": null
+    "sourceline": "ppa:kalakris/cmake"
   },
   {
     "alias": "kubuntu-backports",
-    "sourceline": "ppa:kubuntu-ppa/backports",
-    "key_url": null
+    "sourceline": "ppa:kubuntu-ppa/backports"
   },
   {
     "alias": "llvm-toolchain-precise",
-    "sourceline": "deb http://llvm.org/apt/precise/ llvm-toolchain-precise main",
-    "key_url": "http://llvm.org/apt/llvm-snapshot.gpg.key"
+    "sourceline": "deb http://apt.llvm.org/precise/ llvm-toolchain-precise main",
+    "key_url": "https://%{app_host}/files/gpg/llvm-toolchain-precise.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-toolchain-precise.asc"
   },
   {
     "alias": "llvm-toolchain-precise-3.5",
-    "sourceline": "deb http://llvm.org/apt/precise/ llvm-toolchain-precise-3.5 main",
-    "key_url": "http://llvm.org/apt/llvm-snapshot.gpg.key"
+    "sourceline": "deb http://apt.llvm.org/precise/ llvm-toolchain-precise-3.5 main",
+    "key_url": "https://%{app_host}/files/gpg/llvm-toolchain-precise-3.5.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-toolchain-precise-3.5.asc"
   },
   {
     "alias": "llvm-toolchain-precise-3.6",
-    "sourceline": "deb http://llvm.org/apt/precise/ llvm-toolchain-precise-3.6 main",
-    "key_url": "http://llvm.org/apt/llvm-snapshot.gpg.key"
+    "sourceline": "deb http://apt.llvm.org/precise/ llvm-toolchain-precise-3.6 main",
+    "key_url": "https://%{app_host}/files/gpg/llvm-toolchain-precise-3.6.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-toolchain-precise-3.6.asc"
   },
   {
     "alias": "llvm-toolchain-precise-3.7",
-    "sourceline": "deb http://llvm.org/apt/precise/ llvm-toolchain-precise-3.7 main",
-    "key_url": "http://llvm.org/apt/llvm-snapshot.gpg.key"
+    "sourceline": "deb http://apt.llvm.org/precise/ llvm-toolchain-precise-3.7 main",
+    "key_url": "https://%{app_host}/files/gpg/llvm-toolchain-precise-3.7.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-toolchain-precise-3.7.asc"
+  },
+  {
+    "alias": "llvm-toolchain-precise-3.8",
+    "sourceline": "deb http://apt.llvm.org/precise/ llvm-toolchain-precise-3.8 main",
+    "key_url": "https://%{app_host}/files/gpg/llvm-toolchain-precise-3.8.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-toolchain-precise-3.8.asc"
+  },
+  {
+    "alias": "llvm-toolchain-precise-3.9",
+    "sourceline": "deb http://apt.llvm.org/precise/ llvm-toolchain-precise-3.9 main",
+    "key_url": "https://%{app_host}/files/gpg/llvm-toolchain-precise-3.9.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-toolchain-precise-3.9.asc"
+  },
+  {
+    "alias": "llvm-toolchain-trusty",
+    "sourceline": "deb http://apt.llvm.org/trusty/ llvm-toolchain-trusty main",
+    "key_url": "https://%{app_host}/files/gpg/llvm-toolchain-trusty.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-toolchain-trusty.asc"
+  },
+  {
+    "alias": "llvm-toolchain-trusty-3.9",
+    "sourceline": "deb http://apt.llvm.org/trusty/ llvm-toolchain-trusty-3.9 main",
+    "key_url": "https://%{app_host}/files/gpg/llvm-toolchain-trusty-3.9.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-toolchain-trusty-3.9.asc"
+  },
+  {
+    "alias": "llvm-toolchain-trusty-4.0",
+    "sourceline": "deb http://apt.llvm.org/trusty/ llvm-toolchain-trusty-4.0 main",
+    "key_url": "https://%{app_host}/files/gpg/llvm-toolchain-trusty-4.0.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-toolchain-trusty-4.0.asc"
+  },
+  {
+    "alias": "llvm-toolchain-trusty-5.0",
+    "sourceline": "deb http://apt.llvm.org/trusty/ llvm-toolchain-trusty-5.0 main",
+    "key_url": "https://%{app_host}/files/gpg/llvm-toolchain-trusty-5.0.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-toolchain-trusty-5.0.asc"
+  },
+  {
+    "alias": "llvm-toolchain-trusty-6.0",
+    "sourceline": "deb http://apt.llvm.org/trusty/ llvm-toolchain-trusty-6.0 main",
+    "key_url": "https://%{app_host}/files/gpg/llvm-toolchain-trusty-6.0.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-toolchain-trusty-6.0.asc"
+  },
+  {
+    "alias": "llvm-toolchain-trusty-7",
+    "sourceline": "deb http://apt.llvm.org/trusty/ llvm-toolchain-trusty-7 main",
+    "key_url": "https://%{app_host}/files/gpg/llvm-toolchain-trusty-7.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-toolchain-trusty-7.asc"
+  },
+  {
+    "alias": "llvm-toolchain-trusty-8",
+    "sourceline": "deb http://apt.llvm.org/trusty/ llvm-toolchain-trusty-8 main",
+    "key_url": "https://%{app_host}/files/gpg/llvm-toolchain-trusty-8.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-toolchain-trusty-8.asc"
+  },
+  {
+    "alias": "llvm-toolchain-xenial-6.0",
+    "sourceline": "deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial-6.0 main",
+    "key_url": "https://%{app_host}/files/gpg/llvm-toolchain-xenial-6.0.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-toolchain-xenial-6.0.asc"
+  },
+  {
+    "alias": "llvm-toolchain-xenial-7",
+    "sourceline": "deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial-7 main",
+    "key_url": "https://%{app_host}/files/gpg/llvm-toolchain-xenial-7.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-toolchain-xenial-7.asc"
+  },
+  {
+    "alias": "llvm-toolchain-xenial-8",
+    "sourceline": "deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial-8 main",
+    "key_url": "https://%{app_host}/files/gpg/llvm-toolchain-xenial-8.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/llvm-toolchain-xenial-8.asc"
   },
   {
     "alias": "lucid",
     "sourceline": "deb http://archive.ubuntu.com/ubuntu/ lucid main",
-    "key_url": null
+    "key_url": "https://%{app_host}/files/gpg/lucid.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/lucid.asc"
   },
   {
     "alias": "mariadb-10.0",
     "sourceline": "deb http://ftp.osuosl.org/pub/mariadb/repo/10.0/ubuntu precise main",
-    "key_url": "http://keyserver.ubuntu.com/pks/lookup?op=get&fingerprint=on&search=0x1BB943DB"
+    "key_url": "https://%{app_host}/files/gpg/mariadb-10.0.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/mariadb-10.0.asc"
+  },
+  {
+    "alias": "mongodb-3.0-precise",
+    "sourceline": "deb http://repo.mongodb.org/apt/ubuntu precise/mongodb-org/3.0 multiverse",
+    "key_url": "https://%{app_host}/files/gpg/mongodb-3.0-precise.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/mongodb-3.0-precise.asc"
+  },
+  {
+    "alias": "mongodb-3.2-precise",
+    "sourceline": "deb http://repo.mongodb.org/apt/ubuntu precise/mongodb-org/3.2 multiverse",
+    "key_url": "https://%{app_host}/files/gpg/mongodb-3.2-precise.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/mongodb-3.2-precise.asc"
+  },
+  {
+    "alias": "mongodb-3.2-trusty",
+    "sourceline": "deb [arch=amd64] http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.2 multiverse",
+    "key_url": "https://%{app_host}/files/gpg/mongodb-3.2-trusty.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/mongodb-3.2-trusty.asc"
+  },
+  {
+    "alias": "mongodb-3.4-precise",
+    "sourceline": "deb [arch=amd64] http://repo.mongodb.org/apt/ubuntu precise/mongodb-org/3.4 multiverse",
+    "key_url": "https://%{app_host}/files/gpg/mongodb-3.4-precise.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/mongodb-3.4-precise.asc"
+  },
+  {
+    "alias": "mongodb-3.4-trusty",
+    "sourceline": "deb [arch=amd64] http://repo.mongodb.org/apt/ubuntu trusty/mongodb-org/3.4 multiverse",
+    "key_url": "https://%{app_host}/files/gpg/mongodb-3.4-trusty.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/mongodb-3.4-trusty.asc"
+  },
+  {
+    "alias": "mongodb-4.0-xenial",
+    "sourceline": "deb http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/4.0 multiverse",
+    "key_url": "https://%{app_host}/files/gpg/mongodb-4.0-xenial.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/mongodb-4.0-xenial.asc"
   },
   {
     "alias": "mongodb-upstart",
     "sourceline": "deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen",
-    "key_url": "http://keyserver.ubuntu.com/pks/lookup?op=get&fingerprint=on&search=0x9ECBEC467F0CEB10"
+    "key_url": "https://%{app_host}/files/gpg/mongodb-upstart.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/mongodb-upstart.asc"
+  },
+  {
+    "alias": "mono",
+    "sourceline": "deb http://download.mono-project.com/repo/debian wheezy main",
+    "key_url": "https://%{app_host}/files/gpg/mono.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/mono.asc"
+  },
+  {
+    "alias": "mono-alpha",
+    "sourceline": "deb http://download.mono-project.com/repo/debian alpha main",
+    "key_url": "https://%{app_host}/files/gpg/mono-alpha.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/mono-alpha.asc"
+  },
+  {
+    "alias": "mono-beta",
+    "sourceline": "deb http://download.mono-project.com/repo/debian beta main",
+    "key_url": "https://%{app_host}/files/gpg/mono-beta.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/mono-beta.asc"
+  },
+  {
+    "alias": "mono-libtiff-compat",
+    "sourceline": "deb http://download.mono-project.com/repo/debian wheezy-libtiff-compat main",
+    "key_url": "https://%{app_host}/files/gpg/mono-libtiff-compat.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/mono-libtiff-compat.asc"
+  },
+  {
+    "alias": "mono-nightly",
+    "sourceline": "deb http://download.mono-project.com/repo/debian nightly main",
+    "key_url": "https://%{app_host}/files/gpg/mono-nightly.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/mono-nightly.asc"
   },
   {
     "alias": "mopidy-stable",
     "sourceline": "deb http://apt.mopidy.com/ stable main contrib non-free",
-    "key_url": "https://apt.mopidy.com/mopidy.gpg"
+    "key_url": "https://%{app_host}/files/gpg/mopidy-stable.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/mopidy-stable.asc"
+  },
+  {
+    "alias": "mysql-5.7-precise",
+    "sourceline": "deb http://repo.mysql.com/apt/ubuntu/ precise mysql-5.7",
+    "key_url": "https://%{app_host}/files/gpg/mysql-5.7-precise.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/mysql-5.7-precise.asc"
+  },
+  {
+    "alias": "mysql-5.7-trusty",
+    "sourceline": "deb http://repo.mysql.com/apt/ubuntu/ trusty mysql-5.7",
+    "key_url": "https://%{app_host}/files/gpg/mysql-5.7-trusty.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/mysql-5.7-trusty.asc"
+  },
+  {
+    "alias": "nginx-mainline",
+    "sourceline": "ppa:nginx/mainline"
+  },
+  {
+    "alias": "nginx-stable",
+    "sourceline": "ppa:nginx/stable"
+  },
+  {
+    "alias": "openjdk-r-java",
+    "sourceline": "ppa:openjdk-r/ppa"
   },
   {
     "alias": "partner-precise",
     "sourceline": "deb http://archive.canonical.com/ubuntu precise partner",
-    "key_url": null
+    "key_url": "https://%{app_host}/files/gpg/partner-precise.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/partner-precise.asc"
   },
   {
     "alias": "pgavin-ghdl",
-    "sourceline": "ppa:pgavin/ghdl",
-    "key_url": null
+    "sourceline": "ppa:pgavin/ghdl"
+  },
+  {
+    "alias": "pgdg-9.5-precise",
+    "sourceline": "deb http://apt.postgresql.org/pub/repos/apt/ precise-pgdg 9.5",
+    "key_url": "https://%{app_host}/files/gpg/pgdg-9.5-precise.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/pgdg-9.5-precise.asc"
+  },
+  {
+    "alias": "pgdg-trusty",
+    "sourceline": "deb \"http://apt.postgresql.org/pub/repos/apt/\" trusty-pgdg main",
+    "key_url": "https://%{app_host}/files/gpg/pgdg-trusty.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/pgdg-trusty.asc"
+  },
+  {
+    "alias": "pollinate",
+    "sourceline": "ppa:pollinate/ppa"
   },
   {
     "alias": "pov-wkhtmltopdf",
-    "sourceline": "ppa:pov/wkhtmltopdf",
-    "key_url": null
+    "sourceline": "ppa:pov/wkhtmltopdf"
   },
   {
     "alias": "precise-pgdg-9.5",
     "sourceline": "deb http://apt.postgresql.org/pub/repos/apt/ precise-pgdg 9.5",
-    "key_url": "https://www.postgresql.org/media/keys/ACCC4CF8.asc"
+    "key_url": "https://%{app_host}/files/gpg/precise-pgdg-9.5.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/precise-pgdg-9.5.asc"
   },
   {
     "alias": "pypy",
-    "sourceline": "ppa:pypy/ppa",
-    "key_url": null
+    "sourceline": "ppa:pypy/ppa"
   },
   {
     "alias": "pythonxy-devel",
-    "sourceline": "ppa:pythonxy/pythonxy-devel",
-    "key_url": null
+    "sourceline": "ppa:pythonxy/pythonxy-devel"
   },
   {
     "alias": "r-packages-precise",
     "sourceline": "deb http://cran.rstudio.com/bin/linux/ubuntu precise/",
-    "key_url": "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x51716619E084DAB9"
+    "key_url": "https://%{app_host}/files/gpg/r-packages-precise.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/r-packages-precise.asc"
   },
   {
     "alias": "r-packages-trusty",
     "sourceline": "deb http://cran.rstudio.com/bin/linux/ubuntu trusty/",
-    "key_url": "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x51716619E084DAB9"
+    "key_url": "https://%{app_host}/files/gpg/r-packages-trusty.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/r-packages-trusty.asc"
   },
   {
     "alias": "rabbitmq-precise",
     "sourceline": "deb https://packagecloud.io/rabbitmq/rabbitmq-server/ubuntu/ precise main",
-    "key_url": "https://packagecloud.io/gpg.key"
+    "key_url": "https://%{app_host}/files/gpg/rabbitmq-precise.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/rabbitmq-precise.asc"
   },
   {
     "alias": "rabbitmq-testing",
     "sourceline": "deb http://www.rabbitmq.com/debian/ testing main",
-    "key_url": "https://www.rabbitmq.com/rabbitmq-signing-key-public.asc"
+    "key_url": "https://%{app_host}/files/gpg/rabbitmq-testing.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/rabbitmq-testing.asc"
+  },
+  {
+    "alias": "rabbitmq-trusty",
+    "sourceline": "deb https://packagecloud.io/rabbitmq/rabbitmq-server/ubuntu trusty main",
+    "key_url": "https://%{app_host}/files/gpg/rabbitmq-trusty.asc",
+    "canonical_key_url": "https://raw.githubusercontent.com/travis-ci/apt-source-safelist/master/keys/rabbitmq-trusty.asc"
+  },
+  {
+    "alias": "tmate",
+    "sourceline": "ppa:nviennot/tmate"
+  },
+  {
+    "alias": "trusty-media",
+    "sourceline": "ppa:mc3man/trusty-media"
   },
   {
     "alias": "ubuntu-sdk-team",
-    "sourceline": "ppa:ubuntu-sdk-team/ppa",
-    "key_url": null
+    "sourceline": "ppa:ubuntu-sdk-team/ppa"
   },
   {
     "alias": "ubuntu-toolchain-r-test",
-    "sourceline": "ppa:ubuntu-toolchain-r/test",
-    "key_url": null
+    "sourceline": "ppa:ubuntu-toolchain-r/test"
+  },
+  {
+    "alias": "webupd8team-java",
+    "sourceline": "ppa:webupd8team/java"
   }
 ]
